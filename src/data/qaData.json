@@ -1,0 +1,2318 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-26T13:54:33.749990",
+    "period_start": "2026-05-19",
+    "period_end": "2026-05-26",
+    "description": "Dummy data for QA Dashboard MVP demo. Based on real calibration data with agent names and chat IDs preserved."
+  },
+  "agents": [
+    {
+      "agent_id": "op_002",
+      "real_name": "Ana Diaz",
+      "host_name": "Amelia Dubois",
+      "office": "CR"
+    },
+    {
+      "agent_id": "op_003",
+      "real_name": "Juan Carlos Treminio",
+      "host_name": "Charles Pinnock",
+      "office": "PRG"
+    },
+    {
+      "agent_id": "op_004",
+      "real_name": "Ricardo Araya",
+      "host_name": "Damian Reyes",
+      "office": "CR"
+    },
+    {
+      "agent_id": "op_005",
+      "real_name": "Preston Mulgrave",
+      "host_name": "Gregory Hartley",
+      "office": "CR"
+    },
+    {
+      "agent_id": "op_006",
+      "real_name": "Manuel Tortos",
+      "host_name": "Ian Hart",
+      "office": "CR"
+    },
+    {
+      "agent_id": "op_007",
+      "real_name": "Fabricio Fallas",
+      "host_name": "Lucas Keenum",
+      "office": "PRG"
+    },
+    {
+      "agent_id": "op_008",
+      "real_name": "Gabriel Amador",
+      "host_name": "Marcus Blackwood",
+      "office": "CR"
+    },
+    {
+      "agent_id": "op_009",
+      "real_name": "Matias Orellana",
+      "host_name": "Matthew Robbins",
+      "office": "PRG"
+    },
+    {
+      "agent_id": "op_010",
+      "real_name": "Ruddy Lopez",
+      "host_name": "Murray Anderson",
+      "office": "PRG"
+    },
+    {
+      "agent_id": "op_011",
+      "real_name": "Gilberth Rodriguez",
+      "host_name": "Tobias Ferguson",
+      "office": "CR"
+    },
+    {
+      "agent_id": "op_012",
+      "real_name": "Reynaldo Naranjo",
+      "host_name": "August Carter",
+      "office": "CR"
+    },
+    {
+      "agent_id": "op_013",
+      "real_name": "Zugyeri Arroyo",
+      "host_name": "Danielle Ruie",
+      "office": "CR"
+    },
+    {
+      "agent_id": "op_014",
+      "real_name": "Duvan Zapata",
+      "host_name": "Damien Cruz",
+      "office": "CR"
+    }
+  ],
+  "chats": [
+    {
+      "chat_id": "11773338",
+      "agent_id": "op_002",
+      "agent_real_name": "Ana Diaz",
+      "agent_host_name": "Amelia Dubois",
+      "agent_office": "CR",
+      "brand": "Royal Ace",
+      "date": "2026-05-24",
+      "datetime": "2026-05-24T09:00:00",
+      "customer_id": "24614226",
+      "human_score": 90,
+      "ai_score": 90,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 85,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Missed Frustration Acknowledgment",
+          "deduction": -10,
+          "evidence": "Player at 23:22:26: 'Got me jumping thru all kinds of hoops'. Agent response at 23:24:47: 'Thank you for your patience!'",
+          "explanation": "The player opened the conversation with a clear expression of frustration about the document verification process. The agent responded with a generic 'Thank you for your patience!' which fails to acknowledge or validate the player's emotional state. The agent did eventually say 'I understand your frustration' at 23:37:36, but the initial missed empathy moment - especially given this is a VIP withdrawal issue with repeated document rejections - constitutes a Tier 8 violation."
+        }
+      ],
+      "feedback_summary": "Amelia provided accurate procedural information and ultimately gave the player a clear path forward, but the chat suffered from delayed empathy and a notable attention lapse. The agent failed to acknowledge initial frustration with a generic 'thank you for your patience' response, and later asked the player for the case number (155598887) that had already been provided earlier in the same chat. Resolution was achieved but the experience felt transactional rather than VIP-grade.",
+      "positive_highlight": "The agent provided clear, specific information about what was missing (the handwritten authorization letter from Colleen Hogan for Amex 3004), gave the correct email address (documents@sunriseupdates.com), and proactively explained common reasons for document rejection (image clarity, signature matching) so the player could prepare a better submission on the next attempt. This gave the player a concrete action plan to resolve the issue.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Lead with Empathy on Frustration Signals",
+          "recommendation": "When a player opens with frustration language like 'jumping thru all kinds of hoops,' acknowledge it immediately before moving to the procedural fix. Example script: 'Stephen, I'm sorry you've had to go through this back-and-forth on your withdrawal - that's genuinely frustrating, especially when you've already submitted documents. Let me pull up your account right now and figure out exactly what's still pending so we can get this resolved.' Replace generic 'Thank you for your patience' with named, specific empathy."
+        },
+        {
+          "title": "Information Retention Within a Single Chat",
+          "recommendation": "The player provided case number 155598887 at 23:30:14 and the agent acknowledged it. At 23:41:51 the agent asked for the case number again, which signals to the player they aren't being heard. Make a habit of jotting key reference numbers (case IDs, ticket numbers, amounts) into your scratch pad as soon as the player shares them. If you need to re-reference, say 'Looking at case 155598887 you shared earlier...' to demonstrate continuity."
+        },
+        {
+          "title": "Avoid Premature Wrap-Up Phrases",
+          "recommendation": "Phrases like 'If you have any other questions, please feel free to let me know' and 'Do you have any other requests for me at this moment?' were used while the player was still actively asking clarifying questions about why the document was rejected. Hold wrap-up language until the player has confirmed they have what they need. Instead try: 'Does that explanation about clarity and signature matching make sense? Happy to go deeper on either one before you have Colleen redo the letter.'"
+        },
+        {
+          "title": "Own the Follow-Up Loop",
+          "recommendation": "Rather than telling the player to come back to chat once the letter is resent, offer a proactive touchpoint. Example: 'Once you send the new letter, reply here with the case number and I'll personally check in with our documents team and email you a confirmation within 24 hours.' This shifts ownership from the player back to the agent and strengthens the VIP relationship."
+        }
+      ],
+      "human_feedback": "90",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11801843",
+      "agent_id": "op_002",
+      "agent_real_name": "Ana Diaz",
+      "agent_host_name": "Amelia Dubois",
+      "agent_office": "CR",
+      "brand": "Slots Of Vegas",
+      "date": "2026-05-20",
+      "datetime": "2026-05-20T11:00:00",
+      "customer_id": "21719583",
+      "human_score": 95,
+      "ai_score": 80,
+      "empathy_rating": "GOOD",
+      "risk_level": "MED",
+      "confidence_pct": 86,
+      "violations": [
+        {
+          "tier": 4,
+          "category": "Compliance - Incomplete Bonus Terms (Rule of 5)",
+          "deduction": -10,
+          "evidence": "'Your match bonus has been credited! Please note once you've completed the playthrough requirement terms and conditions of the bonus still apply. These rules include the maximum amount that can be cashed out (if applicable) and the games you are allowed to play using that specific bonus...'",
+          "explanation": "The agent added a manual match bonus on top of a deposit, which constitutes a deposit bonus requiring full Rule of 5 disclosure. The disclosure mentioned Playthrough, Max Cashout, and Allowed Games (3 of 5), but failed to mention Min Deposit and Redemption Count. -5 per missing term = -10."
+        },
+        {
+          "tier": 9,
+          "category": "Revenue - Missed Relationship/VIP Opportunity",
+          "deduction": -10,
+          "evidence": "After resolving the bonus issue: 'Is there anything else I may help you with?' followed by an immediate close with no relationship-building.",
+          "explanation": "Wesley is clearly a depositing VIP player who experienced friction with his bonus. After the manual save, the agent had a natural opening to reinforce the VIP relationship (mention VIP tier benefits, dedicated VIP host, crypto deposit perks, or proactive next-step engagement) but instead defaulted to a transactional close-out script."
+        }
+      ],
+      "feedback_summary": "Amelia handled a tricky disabled-game/free-spins issue with composure and resolved it through a creative manual match bonus solution. However, the closing bonus disclosure was incomplete (missing Min Deposit and Redemption Count), and the agent missed a clear opening to reinforce the VIP relationship after the save. Solid technical recovery, but the wrap-up was transactional rather than relationship-building.",
+      "positive_highlight": "The agent demonstrated strong problem-ownership and account management flexibility by diagnosing the disabled-game issue, attempting two alternative games, and ultimately offering a manual match bonus solution that converted the free spins to cash value \u2014 removing the game restriction and saving the player's deposit experience without forcing them to wait or escalate elsewhere.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "VIP Tier",
+          "description": "After successfully saving the bonus experience, the agent should have leveraged the goodwill moment to reinforce VIP value \u2014 e.g., introducing the dedicated VIP host relationship, previewing upcoming VIP perks, or inviting Wesley to reach out directly next time rather than going through general live support.",
+          "evidence": "'Your match bonus has been credited!' \u2192 immediately followed by 'Is there anything else I may help you with?' with no relationship reinforcement."
+        },
+        {
+          "type": "Crypto Pivot",
+          "description": "The player just made a deposit and experienced friction. A natural moment to mention crypto deposit benefits (faster withdrawals, exclusive crypto-only boosts, higher limits) for future deposits, particularly given the 'In the future and if you don't receive your match bonus immediately after depositing, please contact us right away' line \u2014 a perfect bridge to recommending crypto deposits which often have smoother bonus crediting.",
+          "evidence": "'In the future and if you don't receive your match bonus immediately after depositing, please contact us right away so that we can add it for you.'"
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Complete Rule of 5 Disclosure on All Deposit Bonuses",
+          "recommendation": "When crediting any deposit-linked bonus (including manual match bonuses), always disclose all 5 required terms with specific values: Allowed Games, Playthrough, Max Cashout, Min Deposit, and Redemption Count. Example script: 'I've credited your match bonus, Wesley. Quick recap on the terms: allowed games are [X], playthrough is [Y]x, max cashout is [Z],minimumdepositrequirementwas[Z], minimum deposit requirement was [ Z],minimumdepositrequirementwas[A], and this bonus has a [B]-time redemption count. Want me to text these to your inbox so you have them handy?'"
+        },
+        {
+          "title": "Convert Save Moments into Relationship Reinforcement",
+          "recommendation": "After any manual save or goodwill gesture, use the warm moment to deepen the VIP relationship rather than closing transactionally. Example script: 'Wesley, since you're playing as a VIP, I want to make sure next time something like this comes up you can reach me directly \u2014 let me share my VIP host contact info. Also, have you tried depositing with crypto? VIPs on crypto get faster withdrawals and we credit bonuses near-instantly, which would have prevented today's hiccup entirely. Want me to walk you through it?'"
+        },
+        {
+          "title": "Proactively Acknowledge Impatience Cues",
+          "recommendation": "When a player sends '??' or short impatience signals, address the emotion explicitly before continuing the task. Example script: 'Thank you for hanging in there, Wesley \u2014 I know waiting on a bonus issue is frustrating. I'm pulling up everything on your account right now and I'll have an answer for you in just a moment.' This converts a friction moment into trust."
+        }
+      ],
+      "human_feedback": "90",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11842755",
+      "agent_id": "op_003",
+      "agent_real_name": "Juan Carlos Treminio",
+      "agent_host_name": "Charles Pinnock",
+      "agent_office": "PRG",
+      "brand": "Las Atlantis",
+      "date": "2026-05-24",
+      "datetime": "2026-05-24T19:00:00",
+      "customer_id": "21458591",
+      "human_score": 90,
+      "ai_score": 70,
+      "empathy_rating": "POOR",
+      "risk_level": "HIGH",
+      "confidence_pct": 85,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Dismissive Response to Serious Issues",
+          "deduction": -10,
+          "evidence": "Player: 'Hello. I have couple issues, first being my withdraw that was approved on the 8th should have been laid today and it was not' | Agent: 'Tell me'",
+          "explanation": "The player opened by presenting a serious withdrawal issue (approved 04/08, not paid on business day 10). The agent's two-word response 'Tell me' is dismissive, demonstrates no acknowledgment of the player's frustration, and shows no warmth or ownership of the issue. A VIP host should have validated the concern immediately with empathy."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Tone-Deaf Closing",
+          "deduction": -10,
+          "evidence": "Player: 'I appreciate your time. If you cant get it paid today then I wont be bothering you further because Ill be done here.' | Agent: 'Thank you so much for playing at Casino Support Center. We really appreciate your loyalty. Have fun, good luck and don't hesitate to come back anytime, we're here for you 24/7.' [Chat closed]",
+          "explanation": "The player explicitly signaled intent to leave the brand permanently due to an unresolved withdrawal. The agent's closing was a generic boilerplate farewell that completely ignored the player's emotional state, threat to leave, and disclosed $10K/month deposit history. Telling a churning VIP to 'have fun, good luck' after they expressed they're done is severely tone-deaf and amounts to a missed-connection empathy failure at the most critical moment of the chat."
+        },
+        {
+          "tier": 9,
+          "category": "Revenue - Missed Retention Opportunity",
+          "deduction": -10,
+          "evidence": "Player: 'My level of play has always been high. I orob deposited in the area of 10k in just a month or so and I didnt play for 3 days and i went from 5 to 1' and later 'Ill take the thousands I spend here somewhere else.'",
+          "explanation": "A high-value VIP disclosed substantial deposit volume ($10K/month) and explicitly threatened to take that spend elsewhere. This is the textbook scenario where a retention-focused save attempt (manager-level loyalty credit, no-rules bonus, or VIP tier reinstatement gesture) is not only appropriate but expected. The agent made zero save attempts and deflected with 'the system is the one that made the change' \u2014 a passive response that effectively let a high-LTV player walk away unprompted."
+        }
+      ],
+      "feedback_summary": "Charles handled a high-stakes VIP escalation with a transactional, low-empathy approach. Despite the player disclosing $10K/month deposit volume and an explicit threat to churn, the agent made zero retention attempts, offered no goodwill gesture, and closed the chat with a tone-deaf boilerplate farewell. The withdrawal was escalated but the relationship was not protected.",
+      "positive_highlight": "The agent did escalate the withdrawal internally ('I escalate the withdrawal' / 'I escalate it already it should be paid this week') and offered one verbal empathy acknowledgment ('I understand your frustration, John') along with a forward-looking commitment for the next withdrawal timeframe.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Retention",
+          "description": "Should have offered a manager-level loyalty credit or no-rules bonus as a goodwill gesture to a high-value VIP threatening to leave, framed as appreciation for past loyalty rather than tied to the withdrawal.",
+          "evidence": "Player disclosed '$10k in just a month or so' in deposits and stated 'Ill take the thousands I spend here somewhere else' \u2014 no save attempt made."
+        },
+        {
+          "type": "VIP Tier",
+          "description": "Should have offered to personally review the VIP tier drop with the loyalty team or commit to a tier reinstatement review based on the player's historical play. Instead, the agent deflected to 'the system made the change.'",
+          "evidence": "Player: 'I also wanna know how I went from Vip 5 to Vip 1 in just a day or 2 of not playing' \u2014 agent's response was passive and offered no recourse."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Open VIP Escalations with Empathy, Not Brevity",
+          "recommendation": "Replace dismissive openers like 'Tell me' with validating language that mirrors the player's concern. Example: 'John, I'm so sorry you're dealing with this \u2014 a withdrawal that should have landed today is absolutely a priority for me. Let me pull this up right now and walk through it with you.' The opening response sets the emotional tone for the entire chat."
+        },
+        {
+          "title": "Retention Playbook for Churn Signals",
+          "recommendation": "When a VIP discloses high deposit volume AND threatens to leave, that is the #1 trigger to deploy a save attempt \u2014 not boilerplate. Example script: 'John, your loyalty here means a lot, and I don't want to lose you over this. While I push your withdrawal, I'd like to drop a [loyalty credit / no-rules bonus] into your account today as a personal thank-you. Would that be helpful?' Always offer something before the player ends the chat."
+        },
+        {
+          "title": "Never Close on a Negative Note",
+          "recommendation": "If a player ends a chat upset or threatening to churn, the closing message must acknowledge that emotional state and offer a personal commitment. Example: 'John, I hear you, and I don't want this to be the last conversation we have. I'll personally follow up with you via email the moment your withdrawal lands, and I'd love the chance to make this right.' Boilerplate farewells like 'have fun, good luck' should never be used when the player is upset."
+        },
+        {
+          "title": "Own the VIP Tier Conversation",
+          "recommendation": "Avoid passive deflection like 'the system made the change.' Instead, offer to advocate for the player. Example: 'I hear you \u2014 going from VIP 5 to VIP 1 feels jarring, especially with your deposit history. Let me flag this with our loyalty team and see what we can do to get you back where you belong.' Always position yourself as the player's advocate inside the company."
+        }
+      ],
+      "human_feedback": "50",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11765275",
+      "agent_id": "op_003",
+      "agent_real_name": "Juan Carlos Treminio",
+      "agent_host_name": "Charles Pinnock",
+      "agent_office": "PRG",
+      "brand": "Royal Ace",
+      "date": "2026-05-23",
+      "datetime": "2026-05-23T14:00:00",
+      "customer_id": "20499914",
+      "human_score": 90,
+      "ai_score": 100,
+      "empathy_rating": "GOOD",
+      "risk_level": "LOW",
+      "confidence_pct": 95,
+      "violations": [],
+      "feedback_summary": "Charles handled a brief withdrawal verification inquiry with speed, professionalism, and clear evidence (blockchain hash). The player's mild apologetic moment was handled warmly with 'No worries we're here to help.' Resolution was clean and player-confirmed before chat closure.",
+      "positive_highlight": "The agent immediately verified the withdrawal status and proactively provided the Blockchain Hash as concrete proof of payment, turning a potentially anxious inquiry into a reassuring, evidence-based resolution within seconds.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Maintain Strengths in Verification Workflows",
+          "recommendation": "Continue providing blockchain hashes proactively on crypto withdrawal inquiries \u2014 this builds trust instantly. Example script to reinforce: 'Great news, your withdrawal has already processed! Here's the Blockchain Hash for your records: [hash]. You should see the funds reflected in your wallet shortly.'"
+        },
+        {
+          "title": "Optional: Personalize Closings on Short Chats",
+          "recommendation": "Even on quick chats, adding the player's first name can elevate the VIP feel. Example: 'Thanks so much, Stephanie \u2014 enjoy your winnings and good luck on your next session!' This costs nothing and reinforces the personal VIP relationship."
+        }
+      ],
+      "human_feedback": "90",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11760295",
+      "agent_id": "op_004",
+      "agent_real_name": "Ricardo Araya",
+      "agent_host_name": "Damian Reyes",
+      "agent_office": "CR",
+      "brand": "Slots Of Vegas",
+      "date": "2026-05-19",
+      "datetime": "2026-05-19T11:00:00",
+      "customer_id": "28478454",
+      "human_score": 100,
+      "ai_score": 85,
+      "empathy_rating": "GOOD",
+      "risk_level": "MED",
+      "confidence_pct": 86,
+      "violations": [
+        {
+          "tier": 4,
+          "category": "Compliance: Missing Bonus Term (Rule of 5)",
+          "deduction": -5,
+          "evidence": "410% No Rules Bonus (30% Extra for Crypto Deposits) Slots & Keno / No Wagering Requirements / No Withdrawal Limits / Redeem: EASTER410 / Deposit $60 or More",
+          "explanation": "The EASTER410 bonus is a deposit coupon, which requires full Rule of 5 disclosure. Agent covered Allowed Games (Slots & Keno), Playthrough (No Wagering), Max Cashout (No Withdrawal Limits), and Min Deposit ($60). Redemption Count was not disclosed."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy: Missed Emotional Cue",
+          "deduction": -10,
+          "evidence": "Player: 'I was trying to make it to the end of the Vegas race thing, but I didn't accomplish that unfortunately' \u2014 Agent response immediately pivoted to withdrawal timelines without acknowledgement.",
+          "explanation": "Player shared a mild disappointment about not finishing the Vegas race promotion \u2014 a clear emotional disclosure tied to their engagement with the brand. Agent did not validate the disappointment or offer encouragement, missing a relationship-building moment."
+        }
+      ],
+      "feedback_summary": "Damian delivered a warm, personable chat with strong rapport, used the player's name throughout, proactively educated on crypto withdrawals for faster processing, and surfaced an active cashback bonus when a deposit was off the table. Score impacted by an incomplete Rule of 5 disclosure on EASTER410 (missing Redemption Count) and a missed empathy moment when the player expressed disappointment about the Vegas race promo.",
+      "positive_highlight": "When the player stated they could not deposit, the agent did not disengage \u2014 instead proactively located and highlighted the player's active $787.64 monthly cashback bonus and walked through the full playthrough and withdrawal rules clearly, ensuring the VIP felt valued even without a deposit in play.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Complete Rule of 5 Disclosure on Deposit Coupons",
+          "recommendation": "Always close out coupon disclosure with the redemption count, even on 'No Rules' style bonuses. Suggested closer: 'This coupon can be redeemed once per player, so make it count when you decide to use it.' Build this as the final line of every coupon paste so it is never omitted."
+        },
+        {
+          "title": "Acknowledge Promotional Disappointment as a Connection Point",
+          "recommendation": "When a VIP mentions falling short on a promotion or race, treat it as a relationship-building moment, not a transactional one. Suggested response: 'Aw, I'm sorry you didn't make it to the finish line on the Vegas race, Kurt \u2014 that one was competitive! Let me see if I can set you up with something special so the next push feels easier.' This validates the effort and naturally pivots into retention value."
+        },
+        {
+          "title": "Tighten Location/Timezone Responses",
+          "recommendation": "While sharing the time zone here was friendly and not a hard violation, VIP best practice is to redirect lightly to avoid setting precedent. Suggested reply: 'I'm available during US hours, Kurt \u2014 happy to set a time that works for you if you'd like to chat again!' This keeps it warm without sharing operational location detail."
+        }
+      ],
+      "human_feedback": "85",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11816668",
+      "agent_id": "op_004",
+      "agent_real_name": "Ricardo Araya",
+      "agent_host_name": "Damian Reyes",
+      "agent_office": "CR",
+      "brand": "Las Atlantis",
+      "date": "2026-05-23",
+      "datetime": "2026-05-23T08:00:00",
+      "customer_id": "23335942",
+      "human_score": 80,
+      "ai_score": 100,
+      "empathy_rating": "GOOD",
+      "risk_level": "LOW",
+      "confidence_pct": 85,
+      "violations": [],
+      "feedback_summary": "Damian handled a high-stakes, emotionally charged withdrawal escalation with composure and consistent empathy. He owned the resolution path (escalations, follow-ups, compensation promise) without shifting burden to the player, used her name throughout, and validated her frustration multiple times. The only opportunity for growth is deepening the moment when Beth disclosed financial hardship ('I need to pay my bills') before pivoting to chat closure.",
+      "positive_highlight": "Damian maintained a calm, empathetic tone throughout a very difficult conversation with a frustrated VIP player who had been waiting since January for withdrawals. He repeatedly acknowledged Beth's frustration by name ('I understand your frustration Beth', 'I know Beth, this is your money'), took clear ownership by confirming he had escalated all pending withdrawals, committed to keeping her posted on updates, and proactively offered compensation in the form of a free bonus once her last pending request is approved.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Deeper Validation on Financial Hardship Disclosures",
+          "recommendation": "When a player discloses real-world financial pressure ('I need to pay my bills'), pause longer on the emotional acknowledgment before transitioning to chat closure. Example script: 'Beth, I hear you \u2014 having bills waiting on money that is rightfully yours is incredibly stressful, and I am sorry you are in this position. I want you to know I am personally tracking these escalations daily, and the moment I have any movement on the January payment, you will hear from me directly \u2014 you will not have to chase me for an update.' Then pause before asking if there is anything else."
+        },
+        {
+          "title": "Concrete Compensation Framing",
+          "recommendation": "When offering compensation to a frustrated VIP, anchor the promise with specifics rather than 'a big free bonus.' Example: 'Once your last pending withdrawal clears, I will personally load a no-rules loyalty bonus to your account as a goodwill gesture for the wait \u2014 I want to make sure you feel taken care of beyond just the resolution.' This builds trust by signaling intent rather than a vague future promise."
+        },
+        {
+          "title": "Proactive Outbound Cadence",
+          "recommendation": "For long-running escalations like this (3+ months), consider initiating outbound contact with the player on a set cadence (e.g., weekly update email) rather than waiting for them to reach back out in frustration. This converts a reactive complaint into a proactive relationship touchpoint and reduces the emotional intensity of subsequent chats."
+        },
+        {
+          "title": "Typo and Salutation Polish",
+          "recommendation": "Minor typos in a VIP's name ('Bethg') can undercut the personalization the agent is otherwise doing well. Take an extra half-second to proof messages addressed to the player by name \u2014 especially in emotionally sensitive moments where every word carries weight."
+        }
+      ],
+      "human_feedback": "100",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11777918",
+      "agent_id": "op_005",
+      "agent_real_name": "Preston Mulgrave",
+      "agent_host_name": "Gregory Hartley",
+      "agent_office": "CR",
+      "brand": "Las Atlantis",
+      "date": "2026-05-24",
+      "datetime": "2026-05-24T18:00:00",
+      "customer_id": "27038374",
+      "human_score": 90,
+      "ai_score": 90,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 84,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Failed to address practical impossibility and depth of frustration",
+          "deduction": -10,
+          "evidence": "Player stated: 'I just specifically opened the Wells Fargo account to get paid out so there's no way I'm going to have 15 transactions on there' and 'I suppose I'll be just screwed out of the money like every other time.' Agent's response repeated scripted verification requirements without addressing the practical impossibility or the underlying past-trauma reference.",
+          "explanation": "The player raised a specific, concrete obstacle (newly opened account cannot satisfy the 15-transaction/$20 balance-increase requirement) and referenced past negative payout experiences. The agent acknowledged frustration verbally once ('I completely understand how frustrating this must feel') but then reverted to repeating the same templated verification script across multiple turns rather than engaging with the actual practical problem or proposing an alternative verification path. The emotional theme of feeling trapped/scammed was not meaningfully addressed."
+        }
+      ],
+      "feedback_summary": "Gregory handled a verification dispute with a hostile, frustrated VIP player using professional, courteous language and personalized communication. However, his responses were largely templated and failed to engage with the player's specific practical objection \u2014 that her newly opened bank account cannot meet the 15-transaction requirement. Empathy was acknowledged verbally but not operationalized into problem-solving or alternative verification paths.",
+      "positive_highlight": "Agent maintained a consistently warm, patient, and professional tone throughout an emotionally charged exchange in which the player accused the brand of being 'complete scammers.' Gregory addressed Julie by name, reassured her of his personal commitment to her case ('I will be here with you before, during, and after the entire process'), and closed the chat with genuine warmth ('Rest well tonight') despite her hostility.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Move from acknowledgment to problem-solving when players raise concrete obstacles",
+          "recommendation": "When a player states a specific practical barrier (e.g., 'I just opened this account, I won't have 15 transactions'), avoid reverting to the same scripted requirement. Instead, escalate internally to find an alternative. Example script: 'Julie, I hear you \u2014 you opened this Wells Fargo account specifically to receive your winnings, so a 15-transaction history isn't realistic right now. Let me personally take this to our Verification team today and ask whether a notarized affidavit, a voided check, or a bank-issued account-opening confirmation letter can substitute for the statement in your case. I'll email you with their answer within 24 hours and copy you on every step.'"
+        },
+        {
+          "title": "De-escalate distrust by validating the underlying fear, not just the surface frustration",
+          "recommendation": "When a player says things like 'I'll be screwed out of my money like every other time' or 'you guys are complete scammers,' the surface anger masks a deeper fear of being cheated. A single 'I completely understand' is not enough. Example script: 'Julie, when you say you've been screwed out of money before, that tells me there's a real history of bad experiences here and I don't want to be part of that pattern. Can you tell me what happened in the past? I want to make sure I personally close that gap for you today, not just process paperwork.'"
+        },
+        {
+          "title": "Avoid templated repetition in emotionally charged chats",
+          "recommendation": "Three of the agent's responses in this chat used very similar 'I completely understand / verification is needed / I will personally help' phrasing. To a frustrated player, this reads as a non-response. Vary language and ensure each turn moves the resolution forward concretely: name a specific next action, a specific timeline, and a specific person/team you are engaging on her behalf."
+        },
+        {
+          "title": "End-of-shift handoffs require explicit continuity commitments",
+          "recommendation": "The shift-end message ('I will continue following up on your case, and I'll be here to assist you again as soon as I'm back') is good, but it left Julie with no clear next step. Example improvement: 'Julie, before I sign off \u2014 here's exactly what happens next: tomorrow morning I will personally email the Verification team about alternative documents for newly opened bank accounts. I will email you by [specific time] with their decision. If for any reason I'm delayed, my colleague [Name] will reach out so you are never left waiting.'"
+        }
+      ],
+      "human_feedback": "40",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11809008",
+      "agent_id": "op_005",
+      "agent_real_name": "Preston Mulgrave",
+      "agent_host_name": "Gregory Hartley",
+      "agent_office": "CR",
+      "brand": "Las Atlantis",
+      "date": "2026-05-20",
+      "datetime": "2026-05-20T15:00:00",
+      "customer_id": "24667265",
+      "human_score": 80,
+      "ai_score": 90,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 78,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy / Missed Connection",
+          "deduction": -10,
+          "evidence": "Player asked twice: '$40 worth of free chips was emailed to me? True' and 'True or not'. Agent response: 'In order to be eligible to redeem the free chip, your most recent transaction needs to be a deposit. Once you complete a deposit, I will be able to offer you a good house chip as a special bonus on my side.'",
+          "explanation": "The player came in with a clear, specific question: was the $40 free chip email she received legitimate? The agent never directly confirmed or denied the email's legitimacy. Instead, he pivoted to a conditional eligibility statement and then introduced a separate 'house chip' offer, which muddied the conversation. The player's stated need was never directly addressed, representing a missed connection with what she actually came to resolve."
+        }
+      ],
+      "feedback_summary": "Gregory was polite and made upsell attempts, but failed to directly answer Roxanne's primary question about whether the $40 free chip email she received was legitimate. Instead of clearly confirming/denying the email's validity and walking her through redemption requirements, he introduced multiple overlapping offers that confused the interaction and led to her disengaging. The chat closed without the player's original inquiry being resolved.",
+      "positive_highlight": "The agent maintained a professional and courteous tone throughout, used the player's name appropriately ('Roxanne'), greeted her warmly, and attempted to retain engagement by adjusting his offer downward (from $100 to $50 deposit) after her initial decline, showing willingness to flex on the player's behalf.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Answer the Question First, Then Offer Alternatives",
+          "recommendation": "Always directly address the player's stated question before pivoting to alternative offers. Example script: 'Hi Roxanne! Yes, I can confirm the $40 free chip email is legitimate. Let me check your account to confirm eligibility... I see your most recent transaction needs to be a deposit to unlock this chip. Once you take care of that, I'll personally apply the $40 chip for you. Would you also like me to share a great deposit coupon to maximize that deposit?' This sequence: (1) confirms the email, (2) explains the requirement, (3) owns the redemption, and (4) introduces upsell only after the original need is addressed."
+        },
+        {
+          "title": "Disclose Bonus Terms Proactively in Offers",
+          "recommendation": "When offering a bonus chip ('$100 chip on $100 deposit'), always lead with the key terms even if the player hasn't asked, so they can make an informed decision. Example: 'I can offer you a $100 chip on a $100 deposit \u2014 playthrough is 30x, max cashout $250, valid on all slots. Would you like me to set that up?' Stating terms upfront builds trust and prevents post-redemption disputes."
+        },
+        {
+          "title": "Recognize When to Step Back from an Upsell",
+          "recommendation": "When a player says 'I'll pass thanks anyway,' that is a clear decline. Coming back with a discounted version of the same offer ('If you do $50 I can keep it for you') can feel pushy. A better path: 'No problem at all, Roxanne \u2014 the offer will be on your account if you change your mind. Is there anything else I can help clarify about the email or your account today?' This respects the decline while keeping the door open."
+        }
+      ],
+      "human_feedback": "85",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11820957",
+      "agent_id": "op_006",
+      "agent_real_name": "Manuel Tortos",
+      "agent_host_name": "Ian Hart",
+      "agent_office": "CR",
+      "brand": "Royal Ace",
+      "date": "2026-05-25",
+      "datetime": "2026-05-25T21:00:00",
+      "customer_id": "22678638",
+      "human_score": 65,
+      "ai_score": 75,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "HIGH",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 3,
+          "category": "Efficiency - Silence Gap",
+          "deduction": -15,
+          "evidence": "Ian's last message at 22:53:49 ('Yes sure! I will look') \u2192 next agent response at 23:00:38. Player prompted at 22:59:30: 'Did I lose you?' Agent acknowledged with 'Sorry' at 23:02:25.",
+          "explanation": "Agent went silent for approximately 6 minutes 49 seconds after committing to look at the deposit history, exceeding the 4-minute threshold. The player had to prompt with 'Did I lose you?' and the agent confirmed the delay was on their end by apologizing. This was clearly an agent-caused gap, not a system delay or unresponsive player."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Missed Loss Disclosure",
+          "deduction": -10,
+          "evidence": "Player at 22:53:28: 'Do you mind taking a look at the deposits I've made over the last several days and see what kind of bonus you can give me. I think I've probably lost somewhere between 1500 and 2000 bucks.' Agent response at 22:53:41-22:53:49: 'Hello Carla! Yes sure! I will look.'",
+          "explanation": "The player disclosed a significant loss of $1,500-$2,000 over recent days \u2014 a meaningful financial/emotional moment for a VIP. The agent did not validate or acknowledge the loss in any way before pivoting to the transactional review. A simple 'Sorry to hear about the rough stretch, Carla \u2014 let me see what I can do for you' would have been the VIP-standard response."
+        }
+      ],
+      "feedback_summary": "Ian resolved the player's request efficiently once engaged, credited a $2K loyalty bonus, and disclosed all required Rule-of-3 terms compliantly. However, a ~7-minute silence gap requiring the player to prompt 'Did I lose you?' and a clear miss on acknowledging the player's disclosed $1,500-$2,000 loss undermined the VIP experience. Tone was polite but transactional.",
+      "positive_highlight": "Ian approved a substantial $2,000 loyalty bonus for the player and delivered the full Rule-of-3 bonus terms (allowed games, playthrough rates by game type, and max cashout) in one clear, comprehensive disclosure \u2014 meeting compliance requirements fully.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Acknowledge Financial/Emotional Disclosures Before Transacting",
+          "recommendation": "When a VIP player shares loss figures or financial stress, always validate before action. Sample script: 'I'm really sorry to hear it's been a rough stretch, Carla \u2014 losing $1,500-$2,000 is no small thing, and I genuinely appreciate you staying with us through it. Let me pull up your deposit history right now and see exactly what we can do to make this right.' This converts a transactional interaction into a relationship moment."
+        },
+        {
+          "title": "Manage Silence Gaps with Proactive Holding Statements",
+          "recommendation": "If a lookup will take more than 60-90 seconds, send a holding update before the player wonders if you've left. Sample script: 'Carla, I'm still pulling your last 7 days of deposits \u2014 give me about two more minutes and I'll have a full picture for you.' This prevents the 'Did I lose you?' moment, which signals to the player that the agent is unreliable."
+        },
+        {
+          "title": "Recover Cleanly After Apologizing",
+          "recommendation": "After 'Sorry' for a delay, follow immediately with a value statement that justifies the wait. Sample script: 'Sorry for the wait, Carla \u2014 I wanted to make sure I had the full picture before coming back to you. Based on your last several days of play, I can authorize a $2,000 loyalty credit right now.' This reframes the delay as thoroughness rather than inattention."
+        }
+      ],
+      "human_feedback": "75",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11813048",
+      "agent_id": "op_006",
+      "agent_real_name": "Manuel Tortos",
+      "agent_host_name": "Ian Hart",
+      "agent_office": "CR",
+      "brand": "Raging Bull",
+      "date": "2026-05-24",
+      "datetime": "2026-05-24T14:00:00",
+      "customer_id": "24661907",
+      "human_score": 0,
+      "ai_score": 0,
+      "empathy_rating": "POOR",
+      "risk_level": "CRIT",
+      "confidence_pct": 96,
+      "violations": [
+        {
+          "tier": 2,
+          "category": "Behavioral: Abrupt Chat Abandonment with Unresolved Issue",
+          "deduction": -100,
+          "evidence": "Player at 02:10:34: 'Please have someone call me back from VIP. I've yet to receive a call from the last request. It's very important.' Agent at 02:21:33: 'Since I am not receiving any response from you, this chat will be closed.'",
+          "explanation": "AUTO-FAIL. The player made a clear, active request for a VIP callback and explicitly stated she had not received one from a prior request and that it was very important. Ian Hart's only substantive message was 'Mel hi' at 02:14:47. He never acknowledged her request, never confirmed a callback would be arranged, never escalated, and never addressed her stated frustration about the prior missed callback. Approximately 7 minutes after a one-word greeting, he closed the chat citing no response from the player \u2014 but the player had no outstanding question to respond to. Her request was the open item, and Ian closed the chat with that request entirely unresolved. Per Tier 2, abruptly closing a chat while the player still has an unresolved active request is an auto-fail."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy: Ignored Player Frustration and Repeat-Contact Disclosure",
+          "deduction": 0,
+          "evidence": "Player: 'I've yet to receive a call from the last request. It's very important.' Agent response: 'Mel hi'",
+          "explanation": "Documented for coaching only (score floor reached via Tier 2). The player disclosed that this was a repeat contact about an unfulfilled callback and signaled urgency. The agent's response acknowledged none of it \u2014 no apology, no validation, no commitment to make the callback happen. This is a clear empathy failure on a VIP-tier interaction."
+        },
+        {
+          "tier": 5,
+          "category": "Behavioral: Unprofessional Address",
+          "deduction": 0,
+          "evidence": "Agent: 'Mel hi'",
+          "explanation": "Documented for coaching only (score floor reached via Tier 2). Shortening the player's name to 'Mel' without invitation, paired with an uncapitalized 'hi' and no welcome script, falls below the VIP standard of address. Borderline under the slang rubric but noted as a professionalism concern."
+        }
+      ],
+      "feedback_summary": "Critical failure. Agent received a transferred VIP player with an explicit, urgent callback request and a stated history of unfulfilled prior outreach, responded with a two-word greeting ('Mel hi'), and then closed the chat seven minutes later citing player non-response \u2014 leaving her core request entirely unresolved. This is a Tier 2 auto-fail for abandoning an active issue, compounded by a severe empathy lapse on a repeat-contact VIP escalation.",
+      "positive_highlight": "There is no meaningful positive highlight for Ian Hart in this transcript. The only courtesy shown to the player came from the prior agent, August Carter, who greeted her warmly before transferring ('Hey Melody, hope everything is well').",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Retention",
+          "description": "This was a repeat VIP contact about an unfulfilled callback \u2014 a textbook retention moment. The agent should have apologized for the prior miss, confirmed the callback in writing with a specific window, and personally owned the follow-through. Mishandling a repeat-contact VIP escalation materially raises churn risk.",
+          "evidence": "Player: 'I've yet to receive a call from the last request. It's very important.'"
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Never Close a Chat with an Open Request",
+          "recommendation": "Before closing any chat, confirm in writing that the player's stated request has been addressed or properly handed off. If the player goes quiet, send a clear final message that owns the next step before closing. Example script: 'Hi Melody \u2014 I see your note about the callback. I'm personally logging this and arranging for [VIP Manager Name] to call you on [phone on file] today between [window]. I'll also send you an email confirmation right now so you have it in writing. If I don't hear back from you in chat, please know this is already in motion on my end \u2014 you do not need to chase it.'"
+        },
+        {
+          "title": "Open VIP Chats with a Full Greeting and Acknowledgment",
+          "recommendation": "A two-word greeting is never acceptable on a VIP transfer, especially for a player with a known prior issue. Always read the player's opening message before greeting and acknowledge it in the first response. Example script: 'Hi Melody, this is Ian from the VIP team \u2014 August just briefed me. First, I'm really sorry the previous callback didn't reach you; that's not the experience you should be having as a VIP. I'm going to take ownership of this personally right now.'"
+        },
+        {
+          "title": "Validate Frustration Before Anything Else",
+          "recommendation": "When a player tells you they've had to follow up because something was missed, acknowledge it explicitly before any other action. Skipping validation on a repeat contact is the single fastest way to lose a VIP. Example script: 'Melody, I completely understand \u2014 having to reach out twice on something important is frustrating, and I want to make sure this one gets handled. Let me get this set up for you right now.'"
+        },
+        {
+          "title": "Use the Player's Full Name Until Invited Otherwise",
+          "recommendation": "Default to the name the player used to sign in (Melody), not a shortened form, unless the player has invited the nickname in prior conversations. The small choice signals respect on a VIP relationship."
+        }
+      ],
+      "human_feedback": "",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11805671",
+      "agent_id": "op_007",
+      "agent_real_name": "Fabricio Fallas",
+      "agent_host_name": "Lucas Keenum",
+      "agent_office": "PRG",
+      "brand": "Raging Bull",
+      "date": "2026-05-20",
+      "datetime": "2026-05-20T11:00:00",
+      "customer_id": "21714803",
+      "human_score": 100,
+      "ai_score": 100,
+      "empathy_rating": "EXCELLENT",
+      "risk_level": "LOW",
+      "confidence_pct": 86,
+      "violations": [],
+      "feedback_summary": "Strong VIP performance characterized by warm rapport, clear ownership of the follow-up (scheduled 11PM call), and accurate information delivery on the Coindraw timing. No tier violations identified. Some coaching opportunity exists around emotional boundaries given the reciprocated 'Love you too' exchange, but the overall interaction was professional, resolved the player's concern, and reinforced loyalty.",
+      "positive_highlight": "Lucas demonstrated exceptional rapport and personalization with this VIP. He immediately used the player's preferred nickname ('Berny'), validated Bernard's excitement about his $1000 win ('I'm so happy for you'), provided a precise, ownership-driven answer about the Coindraw timing ('supposed to hit you up at around 23:59:00 EST'), and confirmed a specific callback time (11PM) rather than leaving the follow-up ambiguous. The player left visibly satisfied ('Yasssss / Bye my man lucas').",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Professional Warmth vs. Personal Boundaries",
+          "recommendation": "Bernard's affectionate language ('I love u', 'my honey', 'my man') reflects strong rapport, which is a VIP strength. However, reciprocating with 'Love you too, Berny!' can blur the agent-player boundary and create compliance risk if reviewed in isolation. Maintain warmth without mirroring romantic-toned language. Suggested script: 'Aw, you're the best, Berny \u2014 really appreciate you. I've got you covered, talk at 11PM.' This preserves the warmth while keeping the relationship professional."
+        },
+        {
+          "title": "Proactive VIP Value Reinforcement",
+          "recommendation": "When a VIP is celebrating a win and already engaged (e.g., upcoming Coindraw), use the positive emotional moment to subtly reinforce VIP value. Example: 'Congrats on the $1K, Berny! Since you're rolling, I'll keep an eye out for a no-rules loyalty boost to drop in your account this week \u2014 you've earned it.' This converts a confirmation chat into a retention touchpoint without feeling like an upsell."
+        },
+        {
+          "title": "Closing Confirmation Best Practice",
+          "recommendation": "Strong closing overall. Consider adding a one-line confirmation recap before the survey prompt, e.g., 'Just to recap: Coindraw lands at 23:59 EST tonight, and I'll personally call you at 11PM. You're all set, Berny.' This locks in the FCR ownership in writing and gives the player something concrete to reference."
+        }
+      ],
+      "human_feedback": "90",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11836273",
+      "agent_id": "op_007",
+      "agent_real_name": "Fabricio Fallas",
+      "agent_host_name": "Lucas Keenum",
+      "agent_office": "PRG",
+      "brand": "Royal Ace",
+      "date": "2026-05-19",
+      "datetime": "2026-05-19T14:00:00",
+      "customer_id": "26022674",
+      "human_score": 70,
+      "ai_score": 80,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 82,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Major Personal Disclosure Underserved",
+          "deduction": -10,
+          "evidence": "Anna: 'Sick as a dog from chemo' \u2192 Lucas: 'I'm really glad you reached out \ud83d\udc9b that trip with your daughters sounds like something really special.' Followed shortly by 'At the moment, our active promos do start from a $30 deposit.' Later, Anna: 'I want to make that trip so bad' \u2192 Lucas: 'About clearing cookies, it can help with loading or display issues...'",
+          "explanation": "Anna disclosed she is undergoing chemotherapy \u2014 a severe personal health disclosure. The agent offered only a brief heart-emoji acknowledgment before pivoting directly into deposit pitches and a tangential cookie-clearing explanation. The chemo itself was never directly named, validated, or held space for. When Anna followed with an emotional statement about wanting to take the trip with her daughters, the agent responded with technical/transactional content rather than acknowledging the weight of the moment. Per rubric, ignoring or minimally engaging with major personal disclosures (illness) is a severe empathy failure."
+        },
+        {
+          "tier": 9,
+          "category": "Missed VIP Retention / Relationship Opportunity",
+          "deduction": -10,
+          "evidence": "Anna: 'At this point it's better for me to get refunded to play at one of your sister sites because it's so small' and 'they are offering killer deals for 15-20 bucks. Thoughts' \u2014 combined with her chemo disclosure and stated financial constraint ('I don't get paid again until Friday'). Agent's retention response was limited to 'our active promos do start from a $30 deposit' and 'you're absolutely welcome to play with a $25 deposit using straight cash anytime, no restrictions attached.'",
+          "explanation": "This was a clear churn-risk moment with a VIP player who openly compared the brand unfavorably to sister sites, expressed financial hardship, and disclosed serious illness. The agent had grounds and license to deploy a VIP-tier save \u2014 a small loyalty chip, a no-rules courtesy, a one-time reduced-minimum coupon, or a manager-level gesture acknowledging her circumstances. Instead the agent held the line on the $30 minimum and offered only straight-cash play. The relationship moment was monetizable and retainable, and was missed."
+        }
+      ],
+      "feedback_summary": "Lucas maintained a professional, named, and reasonably warm tone throughout, with solid product knowledge and accurate account verification. However, the chat had two notable misses: a major personal health disclosure (chemotherapy) that was acknowledged only superficially before transactional pivots, and a clear VIP churn-risk moment \u2014 sister-site comparison plus financial constraint plus illness \u2014 that warranted a stronger retention play than the standard $30 promo line. The refund question Anna raised was also left somewhat unaddressed before she went unresponsive.",
+      "positive_highlight": "The agent opened the interaction warmly with a personalized greeting using Anna's name and a heart emoji ('I'm really glad you reached out \ud83d\udc9b'), and provided a clean, direct answer to her 'what are the hot slots' question with three specific game recommendations (Cash Chaser, God of Wealth, Hades' Flames of Fortune). The agent also correctly verified her free spin redemption history with a precise timestamp, gently reassuring her ('There's nothing to worry about, Anna') when she expressed confusion.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Retention",
+          "description": "Deploy a VIP-tier save when Anna mentioned sister-site competitor deals and financial constraint. A small loyalty chip, a one-time courtesy bonus with reduced minimum, or a 'let me see what I can do for you given everything you're going through' manager-credit gesture would have been warranted and appropriate given her health disclosure.",
+          "evidence": "'At this point it's better for me to get refunded to play at one of your sister sites because it's so small' / 'they are offering killer deals for 15-20 bucks. Thoughts'"
+        },
+        {
+          "type": "Crypto Pivot",
+          "description": "Anna explicitly stated she was new to crypto and didn't understand the fees ('I didn't realize all the fees associated with crypto' / 'And buying and sending. I'm new to all that.'). This was an opening to educate her on the brand's crypto deposit experience, offer a crypto-specific deposit bonus where available, or position crypto as the preferred VIP deposit method going forward. Agent only said 'That's just fine' and pivoted to wire withdrawal complications.",
+          "evidence": "'I didn't realize all the fees associated with crypto' / 'And buying and sending. I'm new to all that.' \u2192 'That's just fine.'"
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Hold space for major personal disclosures before pivoting",
+          "recommendation": "When a player discloses serious health, family, or financial news, slow down for one full message and acknowledge it directly before any product or promo content. Use the disclosure word itself \u2014 don't generalize. Example script: 'Anna, I'm so sorry to hear you're going through chemo right now \u2014 that takes real strength, and I'm glad you're here. Please don't feel any pressure with playing while you're not feeling well. Let me see what I can do to make things easier for you today.' That message earns the right to discuss promos a turn later."
+        },
+        {
+          "title": "Convert churn-risk moments into VIP retention plays",
+          "recommendation": "When a VIP mentions competitor sister sites, financial hardship, or threatens refund/exit, treat it as a high-priority retention moment and escalate the value of your response. Don't repeat the standard promo minimums \u2014 surface a VIP-tier gesture. Example script: 'I hear you on the value piece, and I don't want you taking that energy to a sister site when you're one of ours. Let me load a small loyalty chip on your account right now as a thank-you for being with us \u2014 separate from any deposit. And when you're ready Friday, I'll personally make sure you get the strongest possible match. Sound fair?'"
+        },
+        {
+          "title": "Own the refund/dispute resolution explicitly",
+          "recommendation": "When a player raises a refund or deposit dispute, name the path forward clearly rather than asking 'Why refund?' and pivoting. Example script: 'Totally hear you, Anna. Let me flag this with our deposits team on your behalf \u2014 I'll have them review the crypto fees on today's transaction and I'll personally follow up with you by email once I have an answer. You don't need to chase this, I've got it.' That language owns the FCR and prevents the player feeling dismissed."
+        },
+        {
+          "title": "Educate new crypto users instead of brushing past",
+          "recommendation": "When a player flags they're new to crypto, take 2-3 sentences to orient them \u2014 it deepens trust and reduces refund requests on future crypto deposits. Example script: 'Totally understand \u2014 crypto has a learning curve, especially the network fees on the buy and the send side. For next time, here's the simplest path that keeps fees low for VIPs like you: [brief steps]. Want me to send you a quick walkthrough by email so you have it handy?'"
+        }
+      ],
+      "human_feedback": "80",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11805669",
+      "agent_id": "op_008",
+      "agent_real_name": "Gabriel Amador",
+      "agent_host_name": "Marcus Blackwood",
+      "agent_office": "CR",
+      "brand": "Las Atlantis",
+      "date": "2026-05-25",
+      "datetime": "2026-05-25T13:00:00",
+      "customer_id": "24437923",
+      "human_score": 100,
+      "ai_score": 90,
+      "empathy_rating": "GOOD",
+      "risk_level": "MED",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 9,
+          "category": "Missed Crypto Pivot",
+          "deduction": -10,
+          "evidence": "First bonus offered (HORSEMAN410) explicitly stated '(30% Extra for Crypto Deposits)' but the agent never asked Carter about his deposit method or actively pivoted to crypto to maximize his bonus value.",
+          "explanation": "When the agent presented a bonus that explicitly highlighted a 30% crypto deposit boost, this was a natural and contextually appropriate moment to ask the player if they were considering depositing with crypto. The agent let this opportunity pass without exploration, which is a missed revenue/value-add opportunity especially relevant for a VIP-style interaction focused on bonus optimization."
+        }
+      ],
+      "feedback_summary": "Marcus delivered a strong, patient, and solution-oriented interaction, cycling through multiple bonus options until finding one that fit the player's needs and providing proper post-redemption terms disclosure. The interaction was professional, friendly, and well-paced with no silence gaps or compliance issues. The single area for growth is proactive crypto pivoting \u2014 when a bonus highlights a crypto deposit boost, the agent should explicitly ask the player about payment method to maximize value.",
+      "positive_highlight": "The agent demonstrated excellent persistence and a customer-first approach by offering five distinct bonus options tailored to the player's $50 deposit preference, proactively asking 'Have you used it?' to avoid wasting the player's time, and ultimately landing on a bonus that worked (NEWADVENTURES). He also closed with a thorough terms and conditions disclosure covering playthrough, max cashout, and allowed games to ensure the player fully understood the bonus before redeeming.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Crypto Pivot",
+          "description": "When presenting the HORSEMAN410 bonus that listed '(30% Extra for Crypto Deposits)', the agent should have asked Carter whether he was planning to deposit with crypto and explained the additional 30% boost he would receive. This is a natural, contextually appropriate revenue-maximizing pivot.",
+          "evidence": "Marcus Blackwood 03:07:05 \u2014 '410% No Rules Bonus (30% Extra for Crypto Deposits)...' \u2014 the crypto boost is mentioned in the bonus terms but never explored conversationally."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Proactive Crypto Pivot",
+          "recommendation": "When a bonus offer includes a crypto-specific boost, surface it conversationally rather than letting it sit silently in the bonus terms. Example script: 'By the way, Carter \u2014 if you deposit with Bitcoin or another crypto, you'd actually unlock an extra 30% on top of this bonus. Is crypto something you've used before, or would you like a quick walkthrough on how to set it up? It only takes a couple of minutes and it really stretches your bankroll further.' This converts a passive line in the bonus terms into an active revenue opportunity."
+        },
+        {
+          "title": "Bonus Discovery Efficiency",
+          "recommendation": "Marcus did a great job cycling through bonuses, but he could front-load a discovery question to land the right bonus faster. Example script: 'Before I pull options for you, quick question \u2014 are there any recent coupons you've already maxed out, and are you depositing with card or crypto? That way I can pull the freshest options that fit you on the first try.' This reduces back-and-forth and shows the player you're optimizing their experience."
+        },
+        {
+          "title": "VIP Relationship Building",
+          "recommendation": "Strong rapport was established with the name greeting and 'How are you today?' \u2014 build on this by adding a personalized closer that reinforces VIP status. Example script: 'Enjoy the bonus, Carter! As one of our valued players, if you ever want me to put together a custom bonus suggestion list based on your favorite games, just let me know \u2014 I'm happy to set that up for you.' This deepens the relationship beyond the single transaction."
+        }
+      ],
+      "human_feedback": "100",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11809199",
+      "agent_id": "op_008",
+      "agent_real_name": "Gabriel Amador",
+      "agent_host_name": "Marcus Blackwood",
+      "agent_office": "CR",
+      "brand": "Vegas Strip",
+      "date": "2026-05-25",
+      "datetime": "2026-05-25T08:00:00",
+      "customer_id": "28996414",
+      "human_score": 100,
+      "ai_score": 100,
+      "empathy_rating": "EXCELLENT",
+      "risk_level": "LOW",
+      "confidence_pct": 88,
+      "violations": [],
+      "feedback_summary": "Exemplary VIP interaction blending warmth, generosity, and technical competence. Marcus acknowledged the player's birthday and her husband's hospitalization with authentic empathy, delivered enhanced loyalty bonuses with all required Rule of 3 terms (allowed games, 20x/50x playthrough, 3x max cashout), and provided a thorough crypto deposit walkthrough with a committed follow-up plan. No compliance, empathy, or efficiency violations identified.",
+      "positive_highlight": "Marcus demonstrated exceptional emotional intelligence by warmly engaging with Stephanie's birthday news ('I always try to congratulate my players on their birthdays. Do you have anything planned?'), then pivoting with genuine compassion when she disclosed her husband's hospitalization ('I'm really sorry to hear that, that's really unfortunate, even more so near your birthday, you know? Is he doing alright?'). He paired this human connection with concrete generosity\u2014proactively offering enhanced $75 loyalty credits across two brands ('giving you a little more than the standard')\u2014and provided patient, detailed crypto onboarding with a step-by-step Trust Wallet guide, even offering to walk through her first deposit together the next day.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Sustaining Empathy After Major Personal Disclosures",
+          "recommendation": "Marcus handled this beautifully, but after Stephanie's detailed description of her husband's injuries (broken shoulder blade, four broken ribs, chest tube), consider adding one more brief touch of warmth before pivoting to the transactional response. Example: 'That sounds incredibly tough\u2014sending good thoughts his way. Glad to hear he's in good spirits, that strength will carry you both through.' This small addition reinforces that the player isn't just being heard once but throughout the conversation."
+        },
+        {
+          "title": "Continue the Proactive Generosity Model",
+          "recommendation": "The decision to give 'a little more than the standard' on both brands is exactly the VIP discretionary use we want to reinforce. Keep documenting these moments\u2014proactive enhancements tied to personal milestones (birthdays, hardship) build retention loyalty far beyond their dollar cost. Continue using the playbook of: acknowledge moment \u2192 offer enhanced credit \u2192 close with personal follow-through commitment."
+        },
+        {
+          "title": "Crypto Coaching Excellence",
+          "recommendation": "The Trust Wallet step-by-step was excellent and the offer to do the next deposit together ('I'd be happy to help you do that together') is gold-standard VIP service. Save this Trust Wallet template as a reusable macro for future crypto-curious players, and consider building similar guides for Exodus, Coinbase Wallet, and MetaMask to scale this capability."
+        }
+      ],
+      "human_feedback": "100",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11845587",
+      "agent_id": "op_009",
+      "agent_real_name": "Matias Orellana",
+      "agent_host_name": "Matthew Robbins",
+      "agent_office": "PRG",
+      "brand": "Vegas Strip",
+      "date": "2026-05-19",
+      "datetime": "2026-05-19T22:00:00",
+      "customer_id": "21322047",
+      "human_score": 90,
+      "ai_score": 100,
+      "empathy_rating": "GOOD",
+      "risk_level": "LOW",
+      "confidence_pct": 92,
+      "violations": [],
+      "feedback_summary": "Matthew delivered a clean, professional VIP interaction. He greeted Marie by name, addressed her withdrawal inquiry accurately with specific amounts and dates, proactively escalated the oldest pending withdrawal, and set clear expectations on processing time. No compliance, efficiency, or behavioral violations were observed.",
+      "positive_highlight": "When the player asked if her oldest withdrawal needed to be escalated, the agent proactively took ownership: 'I'll escalate the oldest one to avoid any delays. Allow me a moment, please.' He then clearly set expectations on the escalation timeframe (24-72 hours, Monday-Friday business hours), giving the player full transparency without requiring her to follow up.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Deepen Personal Connection on Casual Sign-Offs",
+          "recommendation": "Marie shared a warm personal moment at the close: 'I'm going to go out in the sun for awhile... its NICE and I'm done with work today.' The agent's 'Have a wonderful day!' was polite but generic. A stronger VIP-level response would engage with the moment specifically. Example script: 'That sounds perfect, Marie \u2014 enjoy the sunshine! You've earned it after a full work day. We'll keep an eye on those withdrawals for you in the meantime.' Small personalized touches like this strengthen rapport and brand loyalty at zero cost."
+        },
+        {
+          "title": "Maintain Proactive Escalation Behavior",
+          "recommendation": "Continue the proactive escalation pattern shown here \u2014 offering to escalate before the player has to push for it is exactly the VIP-tier behavior we want to reinforce. Keep pairing it with clear timeframe expectations as you did ('24 to 72 hours... Monday to Friday, within business hours') so players always know what comes next."
+        }
+      ],
+      "human_feedback": "90",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11845471",
+      "agent_id": "op_009",
+      "agent_real_name": "Matias Orellana",
+      "agent_host_name": "Matthew Robbins",
+      "agent_office": "PRG",
+      "brand": "Las Atlantis",
+      "date": "2026-05-23",
+      "datetime": "2026-05-23T12:00:00",
+      "customer_id": "26067228",
+      "human_score": 90,
+      "ai_score": 65,
+      "empathy_rating": "POOR",
+      "risk_level": "HIGH",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 7,
+          "category": "FCR - Burden Shift",
+          "deduction": -15,
+          "evidence": "'That information is out of my scope. If you'd like, please feel free to come back looking for Marcus on Saturday after 4PM EST. So he can help you with the case.' (18:02:49)",
+          "explanation": "The agent placed the burden on the player to return days later to speak with her VIP host, rather than owning the resolution. With a $150k cashout urgency and the host unavailable until Saturday, the agent should have escalated internally or arranged a proactive callback at a specific time, not asked the player to return."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Major Personal Disclosure Ignored",
+          "deduction": -10,
+          "evidence": "Player: 'Imntrying to cash out need attorney for my son' (17:45:17). Agent's next message (17:46:27): 'I'm going to check your account, give me a moment please' \u2014 followed by document verification instructions with no acknowledgment.",
+          "explanation": "The player disclosed a major personal/legal situation \u2014 needing the funds to obtain legal representation for her son. This is a severe empathy failure. The agent pivoted immediately to transactional document requirements without a single line of validation (e.g., 'I'm so sorry you're dealing with this, let me see what I can do to help expedite things for you')."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Frustration Repeatedly Unacknowledged",
+          "deduction": -10,
+          "evidence": "Player: 'Dude this is a game u do not need all my personal information to cash out I don't go to a casino and provide this information' (17:51:55) and 'I got things to do I don't need to be tied up w this' (18:03:27). Agent responses were canned templates with no acknowledgment of her frustration.",
+          "explanation": "A distinct emotional moment from the personal disclosure \u2014 the player expressed escalating frustration about the verification process and time wasted. The agent responded with templated language ('In order to improve our services...', 'If you have any other questions or requests, please feel free to let me know') without ever validating the frustration or attempting to de-escalate."
+        }
+      ],
+      "feedback_summary": "Matthew delivered procedurally correct information but failed on the human elements that define VIP service. He missed a major personal disclosure (player needing funds for her son's attorney), gave only templated responses to escalating frustration, and shifted the burden back to the player to return days later rather than owning the escalation for a high-value $150k cashout.",
+      "positive_highlight": "The agent provided clear, well-structured document verification instructions including image quality guidance, email reference workflow, and spam folder check \u2014 demonstrating procedural thoroughness on the verification step.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Recognize and Respond to Major Personal Disclosures",
+          "recommendation": "When a player shares a significant life event (legal trouble, illness, family emergency), pause the transactional flow and acknowledge it before continuing. Example script: 'Jennifer, I'm really sorry to hear you're dealing with a legal matter for your son \u2014 that sounds incredibly stressful. Let me do everything I can to help get this cashout moving for you as quickly as possible.' This takes 10 seconds and transforms the entire interaction."
+        },
+        {
+          "title": "Own High-Value Escalations \u2014 Don't Defer to 'Come Back Later'",
+          "recommendation": "For a $150k cashout with an unavailable host, do not tell the player to return on Saturday. Escalate internally: notify the VIP team lead, request an out-of-hours callback, or offer to email the host's manager. Example script: 'Marcus isn't available until Saturday, but given the urgency I'm going to flag this with our VIP supervisor right now and request that someone reach out to you today. What's the best number and time to reach you?'"
+        },
+        {
+          "title": "Replace Templated De-escalation with Specific Validation",
+          "recommendation": "When a player vents frustration, avoid 'If you have any other questions or requests, please feel free to let me know' \u2014 it reads as dismissive. Validate the specific concern. Example: 'I completely understand \u2014 being asked for ID and a bank statement feels invasive, especially when you just want your money. These are required for accounts cashing out larger amounts, but I'll personally make sure your documents are flagged as priority once they arrive.'"
+        },
+        {
+          "title": "Confirm Callback Logistics Before Closing",
+          "recommendation": "The player asked a fair question ('what phone number am I waiting for') that went unanswered. Before closing a chat involving a pending callback, confirm: who is calling, from what number range or caller ID, and within what window. Example: 'Marcus will be calling from a number starting with [area code]. I'll note in his file to identify himself immediately so you know it's not spam.'"
+        }
+      ],
+      "human_feedback": "55",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11845990",
+      "agent_id": "op_010",
+      "agent_real_name": "Ruddy Lopez",
+      "agent_host_name": "Murray Anderson",
+      "agent_office": "PRG",
+      "brand": "Royal Ace",
+      "date": "2026-05-23",
+      "datetime": "2026-05-23T11:00:00",
+      "customer_id": "20768805",
+      "human_score": 90,
+      "ai_score": 90,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Missed reassurance moment",
+          "deduction": -10,
+          "evidence": "Player: 'I don't know if you can help but I'm just giving it a try' (20:48:14) and later 'Is this even something you can help me with?' (20:52:06). Agent response: 'Have you tried on a different browser?' (20:53:05)",
+          "explanation": "The player twice expressed uncertainty/doubt about whether the agent could help. The agent did not acknowledge or reassure the player at either point, moving directly to a transactional troubleshooting question. A VIP-level response would have included a brief reassurance such as 'I'll do my best to help you' before diagnosing."
+        }
+      ],
+      "feedback_summary": "Murray handled this Posh Casino login inquiry politely and the player left satisfied, but the interaction was transactional rather than VIP-caliber. Empathy was minimal and troubleshooting was thin \u2014 only one diagnostic suggestion was offered without exploring device, error code 'Violet', or password reset options.",
+      "positive_highlight": "Murray maintained a polite, professional tone throughout and offered an actionable troubleshooting step (trying a different browser) while leaving the door open for the player to return if it didn't work \u2014 the player ended the chat satisfied ('No sir thank you!').",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Retention",
+          "description": "Since the player was struggling to access free spins at a sister property, Murray could have offered to engage the player on Sunrise Slots with a comparable bonus or relationship gesture to keep them playing while the Posh issue was resolved. However, this was borderline given the brand context, so not scored as a violation.",
+          "evidence": "Player explicitly came in for free spins access ('y'all gave me some free spins') and the agent never reciprocated with any Sunrise-side engagement."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Lead with Reassurance Before Diagnosis",
+          "recommendation": "When a player expresses doubt about whether they can be helped, always reassure first, then troubleshoot. Example script: 'Of course, Marshall \u2014 I'm glad you reached out. Let's get this sorted together. Can you tell me what device and browser you're using, and what the full error message says?'"
+        },
+        {
+          "title": "Deeper Technical Diagnostics",
+          "recommendation": "For login issues, always ask: (1) device type, (2) current browser/version, (3) exact error message or screenshot, (4) whether they've tried a password reset, (5) whether the issue happens in incognito mode. Example: 'Before we try a different browser, could you let me know what device you're on and whether the error code Violet appears immediately or after you enter credentials?'"
+        },
+        {
+          "title": "Own the Follow-Up Proactively",
+          "recommendation": "Rather than letting the player decide to return, take ownership: 'Please give the different browser a try, and if it doesn't resolve, reply to this chat and request me by name \u2014 Murray \u2014 or I can send you a quick follow-up email tomorrow to make sure it's working.' This converts a passive handoff into VIP-level ownership."
+        }
+      ],
+      "human_feedback": "80",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11845879",
+      "agent_id": "op_010",
+      "agent_real_name": "Ruddy Lopez",
+      "agent_host_name": "Murray Anderson",
+      "agent_office": "PRG",
+      "brand": "Raging Bull",
+      "date": "2026-05-24",
+      "datetime": "2026-05-24T11:00:00",
+      "customer_id": "21338687",
+      "human_score": 90,
+      "ai_score": 100,
+      "empathy_rating": "GOOD",
+      "risk_level": "LOW",
+      "confidence_pct": 92,
+      "violations": [],
+      "feedback_summary": "Murray delivered a clean, efficient VIP interaction: addressed the player by name, fully complied with the Rule of 3 (allowed games, playthrough, max cashout), and successfully pivoted to an upsell with a crypto deposit incentive. Tone was professional and warm enough for a transactional loyalty request, with no compliance, efficiency, or behavioral issues identified.",
+      "positive_highlight": "Agent proactively presented a tailored upsell deposit coupon (480% No Rules Bonus with crypto incentive and free spins) immediately after fulfilling the loyalty chip request, capturing a revenue opportunity while the player was engaged and satisfied.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Deepen Personalization on Quick-Turn Loyalty Requests",
+          "recommendation": "When fulfilling short loyalty chip requests, add one personalized touch before the terms to strengthen the VIP rapport. Example: 'Absolutely, Denise \u2014 happy to take care of that loyalty chip on your $122 deposit. Let me get that set up for you right now.' This small acknowledgment of the specific deposit reinforces that the player is being individually attended to rather than processed."
+        },
+        {
+          "title": "Maintain Upsell Excellence",
+          "recommendation": "Continue the strong habit of pairing fulfilled loyalty chips with a contextual deposit coupon offer. To make it even more effective, briefly tie the upsell to the player's behavior. Example: 'Since you've been active recently, here's your best-match coupon if you'd like to keep the session going \u2014 extra value on crypto deposits if that's something you use.'"
+        }
+      ],
+      "human_feedback": "100",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11769024",
+      "agent_id": "op_011",
+      "agent_real_name": "Gilberth Rodriguez",
+      "agent_host_name": "Tobias Ferguson",
+      "agent_office": "CR",
+      "brand": "Royal Ace",
+      "date": "2026-05-25",
+      "datetime": "2026-05-25T11:00:00",
+      "customer_id": "26377459",
+      "human_score": 70,
+      "ai_score": 65,
+      "empathy_rating": "POOR",
+      "risk_level": "HIGH",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 3,
+          "category": "Efficiency - Silence Gap",
+          "deduction": -15,
+          "evidence": "Player message at 22:12:22 ('I'm spending too much time and money here') \u2192 Agent response at 22:16:40 (offer of $140 loyalty bonus). Gap = 4 minutes 18 seconds.",
+          "explanation": "Silence gap exceeded the 4-minute threshold. Particularly concerning that the delay occurred immediately after the player made a sensitive disclosure about spending behavior, where prompt, thoughtful engagement was critical."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Missed Responsible Gambling Disclosure",
+          "deduction": -10,
+          "evidence": "Player: 'I'm spending too much time and money here.' Agent response: 'I see you are entitled to receive a $140 loyalty bonus. Would you like to try one more time with this free loyaty bonus?'",
+          "explanation": "This is a SEVERE empathy failure. The player explicitly disclosed a responsible gambling concern \u2014 spending too much time and money. Rather than acknowledging this sensitive disclosure with care, the agent immediately offered MORE bonus credit to encourage continued play, then pivoted to cool-down offers without ever validating the underlying concern. This treats a potential problem-gambling signal as a routine retention opportunity, which is the opposite of the empathetic, responsible response required from a VIP Account Manager."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Ignored Escalating Player Frustration",
+          "deduction": -10,
+          "evidence": "Player: 'This is absolutely ridiculous. I've never had so much trouble getting something done.' and later 'Please stop with these workarounds and just close my account.' Agent responses remained procedural with no acknowledgment of frustration ('Sorry, as I mentioned she will contact you...').",
+          "explanation": "Distinct emotional moment from the initial disclosure. The player's frustration mounted throughout the chat as he repeatedly had to refuse retention offers and explain himself. The agent never paused to validate this frustration ('I completely understand your frustration with how long this is taking...'), instead continuing with procedural barriers. The chat ultimately ended with the player cursing the casino \u2014 a clear sign empathy was missing at every emotional inflection point."
+        }
+      ],
+      "feedback_summary": "Agent procedurally executed Rule of Two and properly escalated the closure to the dedicated VIP AM, but missed a critical responsible-gambling disclosure entirely \u2014 offering bonus credit and 'one more try' to a player explicitly stating he was spending too much time and money. Combined with one silence gap and an absence of genuine empathy as the player's frustration escalated, the chat ended with the player cursing the brand. Procedural compliance was present; emotional intelligence and responsible gambling awareness were not.",
+      "positive_highlight": "The agent did follow the procedural structure of Rule of Two by asking the player's reason for leaving ('may I ask what's prompted this decision?') and offering two distinct save attempts (loyalty bonus, then cool-down options). The agent also correctly escalated the permanent closure to the dedicated VIP Account Manager rather than attempting an unauthorized closure, and placed a soft lock to protect the player in the interim.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Responsible Gambling Recognition (Critical Priority)",
+          "recommendation": "When a player cites 'spending too much time/money,' 'losing control,' 'this is becoming a problem,' or similar \u2014 STOP all retention offers immediately. This is a Responsible Gambling signal, not a retention opportunity. The correct response is: 'I really appreciate you sharing that with me, Colton. What you're describing is something we take very seriously, and your wellbeing comes first. I'm not going to try to convince you to stay \u2014 instead, I'd like to help you close this account in the way that best supports you. Would you like a permanent self-exclusion, or a permanent closure?' Offering bonuses or 'one more try' to a self-identified problem gambler is harmful and undermines brand integrity."
+        },
+        {
+          "title": "Empathy-First Validation Before Procedure",
+          "recommendation": "Lead with a genuine validation statement BEFORE any procedural action, especially in emotional chats. Replace 'allow me a moment to check your account' with 'Colton, I hear you, and I want to make sure I handle this respectfully. Thank you for telling me what's going on \u2014 give me just a moment to look into your account properly.' Validation is not a script \u2014 it should reference what the player actually said."
+        },
+        {
+          "title": "Acknowledge Frustration as It Escalates",
+          "recommendation": "When a player says 'this is ridiculous' or 'please stop with the workarounds,' that is a moment to PAUSE the procedure and acknowledge the experience. Example: 'You're right, Colton \u2014 I can hear how frustrating this is becoming. I'm sorry it's taken this many steps. Let me explain exactly what happens next so there are no more surprises.' Procedural answers without acknowledgment make frustration compound."
+        },
+        {
+          "title": "Response Efficiency in Sensitive Chats",
+          "recommendation": "Closure and emotional chats demand faster, not slower, response cadence. Keep gaps under 2 minutes where possible. If a longer check is needed, hold the chat with a presence message: 'Colton, I'm still here with you \u2014 just pulling up the right options on my side, one moment.'"
+        },
+        {
+          "title": "Owning the Handoff Communication Path",
+          "recommendation": "Rather than 'you can ask for her on Monday via live chat,' fully own the next step: 'I'm flagging your account as priority for Vera now. She will email you personally first thing Monday morning at the address on file \u2014 you don't need to chat back in. If you'd like, I can also note your preference that she only contact you by email, not phone.' This removes any burden from the player."
+        }
+      ],
+      "human_feedback": "40",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11780768",
+      "agent_id": "op_011",
+      "agent_real_name": "Gilberth Rodriguez",
+      "agent_host_name": "Tobias Ferguson",
+      "agent_office": "CR",
+      "brand": "Raging Bull",
+      "date": "2026-05-21",
+      "datetime": "2026-05-21T15:00:00",
+      "customer_id": "22728882",
+      "human_score": 90,
+      "ai_score": 90,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 9,
+          "category": "Missed Revenue Opportunity - Deposit Match/Bonus",
+          "deduction": -10,
+          "evidence": "Player stated at 22:47:46: 'I have one on this site before and cashed out. I am checking to see if I am still verified before I deposit.' Agent confirmed verification at 23:01:23 but never offered any deposit bonus, match, or promotional code.",
+          "explanation": "The player explicitly signaled intent to deposit and was a returning verified customer who had previously cashed out \u2014 a prime upsell moment. The agent confirmed verification and discussed withdrawals but never proactively offered a deposit match, welcome-back bonus, or crypto deposit incentive to encourage the upcoming deposit, leaving clear revenue on the table."
+        }
+      ],
+      "feedback_summary": "Tobias delivered a professional, patient verification check with good wait-time communication and a complete Coindraw breakdown. However, the chat was purely transactional and missed an obvious revenue moment when a returning, verified player openly stated they were about to deposit \u2014 no bonus or crypto deposit incentive was offered.",
+      "positive_highlight": "The agent was patient and transparent during an extended documents-team wait, proactively providing 'Thanks for sticking with me' updates so the player wasn't left in silence, and then delivered a thorough, well-structured explanation of the Coindraw fast-withdrawal program including all eligibility requirements.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Deposit Match",
+          "description": "Once verification was confirmed and the player reiterated deposit intent, the agent should have proactively offered a returning-player deposit match or coupon code (especially a crypto deposit match to align with the player's interest in crypto withdrawals) to capture the imminent deposit.",
+          "evidence": "Player at 22:47:46: 'I am checking to see if I am still verified before I deposit.' Agent confirmed at 23:01:23: 'your documents are ok and your account is verified.' No bonus offered at any point in the chat."
+        },
+        {
+          "type": "Crypto Pivot",
+          "description": "The player asked specifically about crypto cashout timeframes, indicating crypto preference. Agent could have reinforced this by encouraging a crypto deposit to ensure Coindraw eligibility on the next withdrawal (since Coindraw requires the last deposit to be crypto), tying revenue intent to player benefit.",
+          "evidence": "Player at 23:01:57: 'So should I win how long would cashout take with crypto.' Agent explained Coindraw eligibility but never connected the dots to suggest the player deposit via crypto to lock in fast-withdrawal eligibility."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Recognize and Act on Deposit-Intent Signals",
+          "recommendation": "When a player explicitly mentions an upcoming deposit, treat it as a confirmed buying signal and pivot to a tailored offer once the blocking issue (verification) is resolved. Example script: 'Great news Tonia, your account is fully verified and ready to go! Since you're getting ready to deposit, I'd love to set you up with a returning-player match \u2014 I can offer you [coupon code] for X% match on your next deposit. Would you like me to walk you through it?'"
+        },
+        {
+          "title": "Tie Crypto Education to a Call-to-Action",
+          "recommendation": "When a player asks about crypto withdrawals, close the loop by encouraging crypto deposits for faster future cashouts. Example script: 'To make sure your next win qualifies for Coindraw's 3-7 day payout, I'd recommend funding via crypto this time \u2014 that way you're set up for our fastest withdrawal method right out of the gate. I can guide you through a crypto deposit if you'd like.'"
+        },
+        {
+          "title": "Personalize the Returning-Player Experience",
+          "recommendation": "Acknowledge returning customers warmly to build rapport rather than treating the chat as a pure transaction. Example script: 'Welcome back, Tonia! Great to see you again after your last cashout. Let me get you sorted so you're ready to deposit and play.' Small personalization moments increase loyalty and conversion."
+        }
+      ],
+      "human_feedback": "80",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11864521",
+      "agent_id": "op_008",
+      "agent_real_name": "Gabriel Amador",
+      "agent_host_name": "Marcus Blackwood",
+      "agent_office": "CR",
+      "brand": "Slots Of Vegas",
+      "date": "2026-05-21",
+      "datetime": "2026-05-21T13:00:00",
+      "customer_id": "24479144",
+      "human_score": 75,
+      "ai_score": 60,
+      "empathy_rating": "POOR",
+      "risk_level": "CRIT",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Dismissive Response to Frustration",
+          "deduction": -10,
+          "evidence": "Player: 'This is the biggest bunch of BS!!! These games cheat so damn bad it's not ever funny!' / 'This platform is horrible!' Agent response: 'We assure you that all winning and losing results are derived from a random number generating algorithm where previous results have no impact on future outcomes. Everything is completely random.'",
+          "explanation": "The agent responded to the player's clear and intense frustration with a generic, scripted RNG explanation. There was no acknowledgment of her feelings, no validation, no apology for her experience. This is a textbook dismissive response to an emotional VIP player."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Ignored Critical Unresolved Issue (Withdrawal)",
+          "deduction": -10,
+          "evidence": "Player stated multiple times: 'I have still not been paid for what I won in April 2nd!' / 'The mighty withdrawal team screwed up and I am paying for their screwup!' / 'ask me if I have been contacted to check on what has went in with it\u2026..absolutely NOT! Not by one person!' Agent never addressed this concern in any of his responses.",
+          "explanation": "The player raised an unresolved withdrawal issue from nearly a month prior (April 2nd) at least three times, including specifically calling out that no one has followed up with her. The agent completely ignored this critical service failure and proceeded only with the loyalty bonus. This is the most severe empathy and ownership failure in the chat - she literally voiced the complaint 'no one is checking on me' and the agent then failed to check on her."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Ignored Long-Term Loyalty Disclosure",
+          "deduction": -10,
+          "evidence": "Player: 'I joined this place 5 years ago and have donated over 500k and never won anything big except when I couldn't cash out but a certain amount.' Agent response did not acknowledge tenure or spend at all, just: 'I mean of course the chances of hitting it big are not immense as is the nature of Slots games...'",
+          "explanation": "A VIP player disclosed 5 years of loyalty and $500k in lifetime spend - a major relationship moment requiring acknowledgment and gratitude. The agent failed to recognize this disclosure, instead defending the RTP of the games. This represents a critical missed opportunity to validate a high-value VIP relationship."
+        },
+        {
+          "tier": 9,
+          "category": "Revenue/Retention - Missed Escalation Opportunity",
+          "deduction": -10,
+          "evidence": "Despite the player raising a stuck April 2nd withdrawal multiple times AND disclosing 5-year / $500k tenure AND expressing strong dissatisfaction, the agent did not offer to personally escalate the withdrawal, contact the finance/withdrawal team on her behalf, provide a manager-level retention credit, or commit to a personal follow-up via email.",
+          "explanation": "This was a clear retention-critical moment. A frustrated VIP with an unresolved cashout and significant tenure required active relationship-saving intervention - ownership of the withdrawal escalation, a personal commitment to follow up, and potentially a goodwill credit. The agent only processed the requested loyalty and asked 'anything else' instead of proactively owning her unresolved issue."
+        }
+      ],
+      "feedback_summary": "Marcus delivered a clean, compliant loyalty bonus transaction but failed almost entirely on the relationship and empathy side. The player raised a critical unresolved withdrawal issue from April 2nd at least three times and disclosed 5-year/$500k tenure, yet the agent responded with generic RNG scripting and did not acknowledge, escalate, or commit to follow up on her core pain point. This is a textbook 'transaction completed, relationship damaged' chat.",
+      "positive_highlight": "The agent delivered a complete and properly structured loyalty bonus disclosure that satisfied the Rule of 3 - clearly stating the 40x/60x playthrough breakdown by game type, the 5x maximum cashout, and a thorough list of non-allowed games. He also greeted the player warmly by name and processed the bonus efficiently once approved.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Retention",
+          "description": "Should have offered to personally escalate the April 2nd withdrawal to the finance team, commit to a personal email follow-up, and potentially layer in a manager-level goodwill credit or no-rules bonus to repair sentiment.",
+          "evidence": "'I have still not been paid for what I won in April 2nd! That's how sick this place is!' - raised three separate times with no response from agent."
+        },
+        {
+          "type": "VIP Tier",
+          "description": "Should have acknowledged the 5-year / $500k loyalty disclosure and used it as an opportunity to reinforce her VIP status, mention any tier benefits or perks she may be eligible for, or simply express genuine gratitude for her long-term loyalty.",
+          "evidence": "'I joined this place 5 years ago and have donated over 500k' - completely unacknowledged in the agent's reply."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Lead with Empathy Before Information",
+          "recommendation": "When a player opens with frustration, the FIRST sentence must validate their feelings before any explanation or transaction. Example script: 'Heather, I am genuinely sorry you're feeling this way - that's not the experience we want for any of our VIPs, let alone someone who has been with us for 5 years. Before we look at your loyalty, can I ask about the April 2nd withdrawal you mentioned? I want to make sure we get that resolved for you.' Defending the RNG to a frustrated player is almost always the wrong move."
+        },
+        {
+          "title": "Never Ignore a Stated Service Failure",
+          "recommendation": "If a player mentions an unresolved issue (especially a withdrawal), it MUST be addressed before moving to any new transaction - even if they did not formally ask you to fix it. Train the habit: 'Hold on - you mentioned your April 2nd cashout hasn't been paid yet. Let me pull that up right now and I'll personally follow up with our finance team and email you an update by end of day.' This single move would have transformed this chat."
+        },
+        {
+          "title": "Recognize and Honor Tenure Disclosures",
+          "recommendation": "When a VIP shares their tenure or lifetime value, treat it as a sacred moment. Example: 'Five years and you're still here - that genuinely means a lot to us, and I want to make sure we're doing right by you today.' This costs nothing and dramatically changes the emotional temperature of the chat."
+        },
+        {
+          "title": "Proactive Escalation for High-Distress VIPs",
+          "recommendation": "When you see a VIP with a major unresolved issue + emotional distress + significant tenure, escalate proactively. Don't wait for them to ask. Offer a manager-level credit, commit to a personal email follow-up, or loop in a senior VIP host. The cost of a small goodwill gesture is far less than losing a $500k lifetime-value player."
+        }
+      ],
+      "human_feedback": "70",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11865015",
+      "agent_id": "op_002",
+      "agent_real_name": "Ana Diaz",
+      "agent_host_name": "Amelia Dubois",
+      "agent_office": "CR",
+      "brand": "Royal Ace",
+      "date": "2026-05-24",
+      "datetime": "2026-05-24T22:00:00",
+      "customer_id": "22871230",
+      "human_score": 75,
+      "ai_score": 75,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "LOW",
+      "confidence_pct": 72,
+      "violations": [],
+      "feedback_summary": "65",
+      "positive_highlight": "",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [],
+      "human_feedback": "65",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11854621",
+      "agent_id": "op_007",
+      "agent_real_name": "Fabricio Fallas",
+      "agent_host_name": "Lucas Keenum",
+      "agent_office": "PRG",
+      "brand": "Slots Of Vegas",
+      "date": "2026-05-23",
+      "datetime": "2026-05-23T19:00:00",
+      "customer_id": "22741438",
+      "human_score": 85,
+      "ai_score": 70,
+      "empathy_rating": "POOR",
+      "risk_level": "HIGH",
+      "confidence_pct": 82,
+      "violations": [
+        {
+          "tier": 6,
+          "category": "Retention - Failed Rule of Two",
+          "deduction": -20,
+          "evidence": "Player at 05:05:10: 'Look i just came for my bo us chip if you camt gi e it to me delete my account i dont need this bullshit bwsides this casino is rigged im tired of it robbing me off my hard earned money'. Agent at 05:06:21: 'if you want to continue with closure, let me know, I'll close as the other one for you.'",
+          "explanation": "Player made an explicit account closure request ('delete my account'). The Rule of Two required: (1) validate and empathize with frustration, (2) ask why they want to leave, (3) make two distinct save attempts. Agent did not validate the frustration, did not ask why they wanted to leave (instead pivoted back to the card question), and offered only ONE save attempt (the $100 loyalty bonus at 05:13:33). The agent's initial response actually invited the closure ('I'll close as the other one for you') rather than attempting to retain the player."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Ignored player sentiment",
+          "deduction": -10,
+          "evidence": "Player expressed significant frustration throughout: 'what the fuck why is every single person keep asking me about this fucken card', 'this casino is rigged im tired of it robbing me off my hard earned money', 'wasted my fucken time'. Agent never acknowledged or validated the player's emotional state, going straight to transactional language: 'Because the finance team is missing some details confirmation from you, Daniel'.",
+          "explanation": "Player was clearly distressed, using profanity and venting about feeling robbed and harassed about a card he didn't know about. A VIP-grade response would open with empathy validation (e.g., 'I completely understand your frustration, Daniel - I'm sorry you've had to keep answering about this'). The agent never once acknowledged the emotional weight of the player's experience, treating the interaction as a purely transactional verification call."
+        }
+      ],
+      "feedback_summary": "Agent recovered a hostile chat and successfully resolved the chargeback verification while delivering the loyalty bonus with full Rule of 3 compliance. However, an explicit closure request ('delete my account') was met with an offer to close rather than a structured Rule of Two retention attempt, and the player's significant frustration was never empathetically validated. Score reflects strong technical resolution undermined by emotional intelligence gaps.",
+      "positive_highlight": "Despite an extremely hostile opening, the agent successfully de-escalated the situation by securing the verification information finance needed (chargeback resolution on the FSIGHT card) AND delivering the loyalty bonus the player came for, with proper Rule of 3 disclosure (playthrough 40x/60x, max cashout 3x, allowed/excluded games). The player left with their bonus issued.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Rule of Two - Trigger Recognition and Save Sequence",
+          "recommendation": "Any phrase containing 'delete', 'close', or 'cancel my account' triggers the full Rule of Two protocol - even when buried inside venting. Do NOT respond with 'if you want to continue with closure, let me know' - that invites the close. Instead, run the sequence: (1) Validate: 'Daniel, I hear you - this back-and-forth has been exhausting, and that's not the VIP experience you deserve.' (2) Diagnose: 'Before we go anywhere near closure, help me understand - is it the card questions, the wait, or something deeper?' (3) Two distinct saves: Save #1 = manager-level credit/bonus ($100 loyalty), Save #2 = forward-looking value (e.g., 'Let me also flag your account for next month's exclusive VIP tier preview - you've been a valued player and I don't want to lose you over a one-time verification issue')."
+        },
+        {
+          "title": "Empathy-First Openings on Hostile Chats",
+          "recommendation": "When a player opens with profanity or visible frustration, the FIRST sentence out of your mouth should be acknowledgment - not explanation, not procedure, not 'because finance needs...'. Example script: 'Daniel, I'm sorry - I can see this has been incredibly frustrating, and being asked about the same card repeatedly is not okay. Let me personally take this off your plate.' THEN proceed to the verification ask. Leading with empathy disarms hostility and signals VIP-tier handling. Leading with procedure (as happened at 05:03:32) confirms the player's feeling that they're being processed, not heard."
+        },
+        {
+          "title": "Professional Boundaries with Colleague References",
+          "recommendation": "When a player asks you to relay a profane or hostile message to a colleague (e.g., 'tell Rick I said fuck you'), do not respond with 'Haha sure, Daniel' - this normalizes the hostility and is unprofessional toward a teammate. A better redirect: 'Daniel, I'll make sure your concerns are noted in the file - Rick and the team take this feedback seriously. The important thing is you're taken care of today.' This validates the underlying frustration without committing to deliver a profane message about a colleague."
+        }
+      ],
+      "human_feedback": "60",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11866520",
+      "agent_id": "op_010",
+      "agent_real_name": "Ruddy Lopez",
+      "agent_host_name": "Murray Anderson",
+      "agent_office": "PRG",
+      "brand": "Raging Bull",
+      "date": "2026-05-22",
+      "datetime": "2026-05-22T14:00:00",
+      "customer_id": "29344066",
+      "human_score": 80,
+      "ai_score": 90,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Missed Frustration Acknowledgment",
+          "deduction": -10,
+          "evidence": "Player: 'previous payouts have not taken more than a couple of days after it was sent. That's why I am following up.' Agent response: 'Today is the 5th business day since it was sent. As mentioned, the delivery time may vary according to our payment service providers...'",
+          "explanation": "The player expressed clear frustration and concern by comparing this delayed payout to their previous experiences. Rather than validating the frustration or acknowledging that the delay is understandably concerning for a VIP, the agent essentially repeated the same scripted response from the previous message with no empathetic acknowledgment. The agent missed the emotional cue and responded transactionally."
+        }
+      ],
+      "feedback_summary": "Murray handled the withdrawal follow-up professionally and provided accurate, specific information about the payout status. However, when the player expressed frustration that this withdrawal was taking longer than past payouts, the agent essentially copy-pasted his earlier response rather than validating the concern, resulting in a robotic, transactional feel to an otherwise courteous interaction.",
+      "positive_highlight": "Agent promptly greeted the player by name, acknowledged the inquiry quickly, and provided specific, factual information about the withdrawal (exact amount of $1820, approval date 04/13, send date 04/22, and current business-day count) which gave the player concrete data to work with.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Validate Frustration Before Repeating Information",
+          "recommendation": "When a VIP pushes back with context (e.g., 'previous payouts didn't take this long'), acknowledge the frustration before restating policy. Example: 'Brian, I completely understand the concern \u2014 when your previous withdrawals have landed in just a couple of days, waiting longer this time is absolutely frustrating. I checked and we're on the 5th business day since it was sent, which is still within the processing window from our payment providers, but I hear you that this is longer than what you're used to.'"
+        },
+        {
+          "title": "Proactive Ownership of Follow-Up",
+          "recommendation": "Rather than leaving the player to wait passively, offer to personally monitor and follow up. Example: 'I'll make a note on your account and personally check in on this tomorrow. If it hasn't landed by [date], I'll escalate directly to our payments team and email you with an update \u2014 you won't need to chase this down again.' This converts a passive wait into active VIP ownership."
+        },
+        {
+          "title": "Avoid Verbatim Repetition of Scripted Responses",
+          "recommendation": "When a player responds to a scripted answer with pushback, do not paste the same script back. Reframe the answer with new information or new framing. Repeating the identical 'delivery time may vary according to our payment service providers' phrasing twice in three messages signals to the player that the agent isn't really listening."
+        }
+      ],
+      "human_feedback": "80",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11866521",
+      "agent_id": "op_009",
+      "agent_real_name": "Matias Orellana",
+      "agent_host_name": "Matthew Robbins",
+      "agent_office": "PRG",
+      "brand": "Raging Bull",
+      "date": "2026-05-20",
+      "datetime": "2026-05-20T18:00:00",
+      "customer_id": "20938483",
+      "human_score": 70,
+      "ai_score": 70,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "HIGH",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 3,
+          "category": "Efficiency - Silence Gap",
+          "deduction": -15,
+          "evidence": "Agent message at 15:21:30 ('I'm going to check which deposit bonuses are available. Give me a moment, please') followed by next agent response at 15:27:26. Player had to prompt at 15:27:08 with 'Matt. U there'.",
+          "explanation": "Silence gap of approximately 5 minutes 56 seconds between agent messages, exceeding the 4-minute threshold. The player was forced to ping the agent to confirm he was still present, indicating the delay was clearly agent-caused."
+        },
+        {
+          "tier": 4,
+          "category": "Compliance - Missing Bonus Term (Rule of 5)",
+          "deduction": -5,
+          "evidence": "Bonus offered: 300% deposit bonus, code THEWORKS300, $50 deposit minimum. Terms listed: All allowed games, 20x/40x Playthrough, 10x Max Cash out, $50+ deposit.",
+          "explanation": "This is a deposit bonus (coupon with deposit requirement), so Rule of 5 applies. The agent disclosed Allowed Games, Playthrough, Max Cashout, and Min Deposit, but did NOT disclose the Redemption Count. Missing 1 of 5 required terms."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Unacknowledged Delay",
+          "deduction": -10,
+          "evidence": "Player message at 15:27:08: 'Matt. U there' after waiting nearly 6 minutes. Agent's response at 15:27:26 made no apology or acknowledgment of the wait, jumping straight into 'I can offer you this great deal...'",
+          "explanation": "The player had to actively check if the agent was still present after a long silence. A VIP-level response would include a brief apology for the wait (e.g., 'Sorry for the wait, Keith!'). The agent ignored the implicit frustration and pivoted directly to the offer."
+        }
+      ],
+      "feedback_summary": "Matthew delivered a polite, professional interaction and successfully fulfilled the player's bonus request, but execution was undermined by a near-6-minute silence gap that forced the player to check if he was still present. He failed to acknowledge or apologize for the delay and omitted the redemption count from the bonus terms. Tone was warm but lacked the responsiveness expected at VIP standard.",
+      "positive_highlight": "The agent personalized the greeting by using the player's name ('Hi Keith, I hope you're well') and provided a thorough, well-formatted bonus disclosure covering 4 of 5 required terms with clear playthrough differentiation between slots and table games \u2014 directly relevant to the player's original 'TABLES promo' question.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Crypto Pivot",
+          "description": "After the player accepted the deposit bonus, the agent could have mentioned crypto deposit benefits (faster processing, additional crypto-exclusive bonuses) as a value-add for the next deposit.",
+          "evidence": "Player confirmed 'Put on my scct' and 'Thx' \u2014 a natural moment to add value before closing without being intrusive."
+        },
+        {
+          "type": "VIP Tier",
+          "description": "No mention of VIP-exclusive perks, upcoming promotions tailored to the player's preferred game type (tables), or a personalized loyalty preview to strengthen the relationship.",
+          "evidence": "Player specifically asked about 'TABLES promo' indicating game-type preference \u2014 an opening for tailored VIP relationship-building that was not utilized."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Acknowledge Delays Proactively",
+          "recommendation": "When returning to a chat after a delay (especially when the player has had to ping you), always lead with a brief apology before delivering content. Example: 'Sorry for the wait, Keith \u2014 thank you for your patience! Here's the best option I found for you...' This single line transforms the interaction from transactional to VIP-grade."
+        },
+        {
+          "title": "Complete Rule of 5 Disclosure",
+          "recommendation": "Build a mental checklist for deposit bonuses: Games, Playthrough, Max Cashout, Min Deposit, Redemption Count. The redemption count was the missing element here. Example addition: 'This coupon can be redeemed 1x (or X times) during the promotion.' Consider using a saved macro that includes all 5 elements by default."
+        },
+        {
+          "title": "Build Rapport Before Closing",
+          "recommendation": "Before closing a quick transactional chat, look for one personalization moment. Example: 'Enjoy the tables, Keith! If you ever want me to flag the next table-specific promo we run, just let me know \u2014 happy to keep you in the loop.' This builds the VIP relationship and opens a future contact channel."
+        },
+        {
+          "title": "Pace Wait Time Communication",
+          "recommendation": "If you need more than 60-90 seconds to check something, send a quick interim update: 'Still pulling this up for you \u2014 thank you for hanging on, one more moment.' This prevents the player from wondering if you've disappeared."
+        }
+      ],
+      "human_feedback": "70",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11868517",
+      "agent_id": "op_012",
+      "agent_real_name": "Reynaldo Naranjo",
+      "agent_host_name": "August Carter",
+      "agent_office": "CR",
+      "brand": "Royal Ace",
+      "date": "2026-05-20",
+      "datetime": "2026-05-20T21:00:00",
+      "customer_id": "25292423",
+      "human_score": 60,
+      "ai_score": 80,
+      "empathy_rating": "GOOD",
+      "risk_level": "HIGH",
+      "confidence_pct": 85,
+      "violations": [
+        {
+          "tier": 6,
+          "category": "Retention - Incomplete Rule of Two",
+          "deduction": -20,
+          "evidence": "Player stated twice: 'Need to close and delete my account please.' Agent's response: offered RNG explanation and a single $100 loyalty bonus ('I can offer you $100... Would you like me to add this for you?'). Agent never explicitly asked the player WHY they wanted to close, and only made ONE save attempt before the player accepted.",
+          "explanation": "The player made an explicit and clear account closure request (twice). Rule of Two requires: (1) validate/empathize, (2) ask why they want to leave, (3) make TWO distinct save attempts. August offered partial empathy ('We understand this can be very frustrating') but skipped the direct 'why' question and only deployed one save attempt (the $100 loyalty credit). While the outcome was successful (player retained and ended on positive note), the protocol itself was not fully executed. A second distinct save lever (e.g., VIP status preview, deposit match, no-rules bonus offer) was never presented."
+        }
+      ],
+      "feedback_summary": "Strong retention outcome with warm tone and competent bonus disclosure, but the Rule of Two protocol was only partially executed \u2014 August skipped the 'why' diagnostic and made only one save attempt before the player accepted. The save worked, but had the player declined the $100, August had no second lever queued up. Empathy was present but pivoted quickly to RNG/bonus rather than sitting in the player's frustration first.",
+      "positive_highlight": "Successfully turned a clear account-closure request into a retained, positively-ended interaction. August opened warmly by name, normalized the unlucky streak with a calm RNG explanation, offered a tangible $100 loyalty credit with most required terms (playthrough, max cashout, allowed/non-allowed games), and closed on a genuine well-wish ('I wish you all the luck') that mirrored the player's 'wish me luck!' \u2014 leaving the player thanking the agent rather than closing the account.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Complete the Rule of Two on every closure request",
+          "recommendation": "Even when the first save attempt feels likely to land, always have a second distinct lever ready and ask the diagnostic 'why' question before pitching. Example script: 'Michael, before I look at what I can do for you, can I ask \u2014 is this purely the video poker streak, or is there something else going on with the account I should know about? I want to make sure whatever I offer actually addresses the real issue.' Then lead with offer #1 ($100 loyalty), and if declined, pivot to offer #2 (e.g., 'Let me also flag you for a no-rules cashback on your next session and a VIP host check-in next week \u2014 would either of those change the picture?')."
+        },
+        {
+          "title": "Lead with empathy, then logic",
+          "recommendation": "The RNG explanation is technically correct but emotionally cold when delivered immediately after a player says they want to delete their account. Sit with the frustration for a beat before explaining the math. Example: 'Michael, hundreds of hands without a quad \u2014 that's genuinely brutal, and I get why you're at this point. Before I talk about anything else, I want to look at what I can do for you personally as a VIP.' Then offer. The RNG paragraph can come later, if at all."
+        },
+        {
+          "title": "Bonus term disclosure \u2014 explicit categorization",
+          "recommendation": "August covered playthrough, max cashout, and allowed games (via the non-allowed list) \u2014 which satisfies Rule of 3 for a loyalty credit. To make audits cleaner and reduce player confusion, restate terms in a short labeled format: 'Allowed games: all except [list]. Playthrough: 50x for video poker. Max cashout: 3x the bonus.' Three clean lines beats a dense paragraph."
+        }
+      ],
+      "human_feedback": "80",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11851229",
+      "agent_id": "op_013",
+      "agent_real_name": "Zugyeri Arroyo",
+      "agent_host_name": "Danielle Ruie",
+      "agent_office": "CR",
+      "brand": "Royal Ace",
+      "date": "2026-05-22",
+      "datetime": "2026-05-22T12:00:00",
+      "customer_id": "23539704",
+      "human_score": 70,
+      "ai_score": 80,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 85,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Missed Emotional Cues",
+          "deduction": -10,
+          "evidence": "Player: 'I used to get like 500 loyalty a couple times a month' and final message 'So friggin pathetic seriously \ud83d\ude10' - neither received any empathetic acknowledgment from the agent.",
+          "explanation": "While the agent did briefly say 'I understand the frustration' once early on, they failed to validate the player's deeper grievance about historically receiving more loyalty rewards. The player's escalating emotional state (multiple frustration emojis, profanity, and the final 'pathetic' comment with sad face) was met with transactional responses rather than genuine emotional acknowledgment. A VIP player expressing strong dissatisfaction warranted deeper validation."
+        },
+        {
+          "tier": 9,
+          "category": "Revenue - Missed Deposit Recovery Opportunity",
+          "deduction": -10,
+          "evidence": "Player stated: 'Idk what the prob is with deposit' and 'I have attempted multiple deposits and idk what the issue is.' The agent never investigated the deposit issue or offered alternative deposit methods (e.g., crypto).",
+          "explanation": "The player explicitly mentioned failed deposit attempts. This was a clear opportunity to address the root cause and potentially recover revenue by troubleshooting the deposit failure or pivoting to crypto/alternative payment methods. Since this would have directly addressed the player's frustration, it qualifies as an appropriate missed opportunity per the contextual criteria."
+        }
+      ],
+      "feedback_summary": "Danielle handled the compliance and transactional aspects competently - bonus terms were fully disclosed and an alternative was offered when the player's requested chip was unavailable. However, the response was largely transactional in tone, missing the opportunity to deeply validate a frustrated VIP and failing to investigate or address the underlying deposit problem the player raised.",
+      "positive_highlight": "The agent disclosed full bonus terms proactively and transparently for both the VIP5APP chip and the $66 loyalty bonus (covering allowed games, playthrough, max cashout, and excluded games), demonstrating strong compliance discipline. When the requested chip was unavailable, the agent offered a meaningful alternative ($66 loyalty bonus) rather than simply declining.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Deposit Match",
+          "description": "Should have investigated the failed deposit issue and offered alternative payment methods (such as crypto, which often resolves deposit declines) to convert the player's frustration into a successful deposit. Could also have framed a deposit-match offer as an incentive to retry.",
+          "evidence": "Player: 'I have attempted multiple deposits and idk what the issue is.' Agent did not ask any diagnostic questions or offer alternative deposit channels."
+        },
+        {
+          "type": "Crypto Pivot",
+          "description": "Given the player's frustration with failed deposits, a crypto deposit pivot would have been highly contextually appropriate and could have unlocked deposit success plus potential crypto bonus incentives.",
+          "evidence": "No mention of crypto as a deposit alternative despite the player explicitly raising deposit failure as a pain point."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Deeper Empathy for Frustrated VIPs",
+          "recommendation": "When a VIP expresses sustained frustration or compares current treatment unfavorably to past treatment, slow down and validate the history before transitioning to the resolution. Example script: 'Deirdre, I hear you - you've been a loyal Posh player and I can see why this feels disappointing. Let me see exactly what's been happening on your account and make this right for you today.' Avoid one-line acknowledgments followed by immediately pivoting to rules and terms."
+        },
+        {
+          "title": "Address Root Cause, Not Just the Symptom",
+          "recommendation": "When a player mentions a problem (failed deposits) alongside a compensation request (loyalty chip), address BOTH. Example script: 'I'd love to add some loyalty for you - but first, let's also figure out what's going on with those deposits so this doesn't happen again. Can you tell me what payment method you tried and what error you saw? In the meantime, have you tried crypto? Many players have great success with it and we even have a crypto bonus available.'"
+        },
+        {
+          "title": "Closing the Chat with Re-Engagement",
+          "recommendation": "When a player's final message is a frustrated emoji or sarcastic comment, do not let the chat close without one last warm touch. Example script: 'Deirdre, I really do appreciate your loyalty and I don't want you leaving this chat feeling unheard. Please reach out to me directly anytime - I'm your VIP manager and I'll personally look out for you. Have a wonderful rest of your day. \ud83d\udc9c'"
+        }
+      ],
+      "human_feedback": "60",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11868100",
+      "agent_id": "op_014",
+      "agent_real_name": "Duvan Zapata",
+      "agent_host_name": "Damien Cruz",
+      "agent_office": "CR",
+      "brand": "Raging Bull",
+      "date": "2026-05-23",
+      "datetime": "2026-05-23T22:00:00",
+      "customer_id": "23567281",
+      "human_score": 75,
+      "ai_score": 75,
+      "empathy_rating": "POOR",
+      "risk_level": "HIGH",
+      "confidence_pct": 85,
+      "violations": [
+        {
+          "tier": 7,
+          "category": "FCR - Burden Shift",
+          "deduction": -15,
+          "evidence": "Agent at 00:06:59: 'Please come back with more information about it' and at 00:15:20: 'For having clearer information we would the information from the bank'",
+          "explanation": "The agent placed the burden of follow-up entirely on the player rather than owning the resolution. The agent should have offered to document the dispute on the account, follow up via email, or proactively reach out after the player consulted their bank. Instead, the agent repeatedly told the player to come back with information, which is a clear burden shift violation."
+        },
+        {
+          "tier": 8,
+          "category": "Empathy - Missed Connection",
+          "deduction": -10,
+          "evidence": "Player at 23:55:48: 'Everything that was charged was paid, thank you', at 00:01:11: 'I have disputed anything that was charged by me', at 00:08:51: 'I'm trying to say I've paid my charges, I wasn't credited with anything. When I play at the casino I pay up front before I'm allowed to play', and at 00:14:47: 'I really don't know at this point.' Agent never acknowledged the player's evident confusion or attempted to validate his feelings.",
+          "explanation": "The player was visibly confused and increasingly frustrated throughout the chat, expressing multiple times that he didn't understand the dispute and felt he had paid all charges he was responsible for. The agent never acknowledged this confusion, never used phrases like 'I understand this is confusing' or 'I can see why this is frustrating,' and instead repeatedly pasted the same macro and redirected him to his bank. The closing message 'I really don't know at this point' from the player is a clear sign the agent failed to make an emotional connection or provide clarity."
+        }
+      ],
+      "feedback_summary": "Damien handled a sensitive dispute conversation in a transactional, macro-heavy manner that left the player visibly confused and unresolved. The agent failed to own the resolution path (repeatedly asking the player to 'come back') and never acknowledged the player's evident confusion or frustration. While the factual dispute details were communicated, the absence of empathy and clear next steps undermined the VIP experience.",
+      "positive_highlight": "The agent provided specific and detailed transaction information when first introducing the dispute (date 3/28/2026, card ending 7015, descriptor 'Swiftxr Technologies Ltd', amount breakdown $499 + $75 fees = $574), which gave the player concrete data points to bring to his bank.",
+      "revenue_opportunities_missed": [],
+      "coaching_plan": [
+        {
+          "title": "Own the Resolution - Eliminate Burden Shift Language",
+          "recommendation": "Instead of 'Please come back with more information,' Damien should own the follow-up. Example script: 'Bill, I completely understand you want to verify this with your bank tomorrow. I'll add detailed notes to your account so any agent can pick up exactly where we left off, and I'll personally check in with you via email within 48 hours to make sure this gets resolved. Does that work for you?'"
+        },
+        {
+          "title": "Empathy-First Communication on Disputes",
+          "recommendation": "Before delivering transactional information, Damien should validate the player's emotional state. Example script when the player expressed confusion: 'Bill, I can absolutely see why this is confusing \u2014 getting a dispute notification on charges you believe you've already settled is frustrating, and I want to help clear this up for you. Let me walk you through what we're seeing on our end step by step.' Lead with empathy, then provide facts."
+        },
+        {
+          "title": "Avoid Macro Repetition",
+          "recommendation": "Damien pasted the same 'Seems like there is a situation with the... After reviewing your account...' macro twice in a row (23:50:06 and 23:56:36). When a player doesn't understand, repeating the same canned text doesn't help \u2014 paraphrase, simplify, or ask what part is unclear. Example: 'Let me break this down differently \u2014 is the part you're confused about the fee, the date, or who initiated the dispute?'"
+        },
+        {
+          "title": "Communication Clarity",
+          "recommendation": "Responses like 'We did not Bill' and 'These charges has not been paid since that was charge to us' are grammatically unclear and add to player confusion. Damien should slow down and write in full, clear sentences. Example: 'No, Bill \u2014 we did not initiate this dispute on our end. The dispute came through to us from your bank, which is why we're trying to figure out together whether you filed it or whether it was something your bank flagged automatically.'"
+        }
+      ],
+      "human_feedback": "70",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11868480",
+      "agent_id": "op_005",
+      "agent_real_name": "Preston Mulgrave",
+      "agent_host_name": "Gregory Hartley",
+      "agent_office": "CR",
+      "brand": "Vegas Strip",
+      "date": "2026-05-24",
+      "datetime": "2026-05-24T15:00:00",
+      "customer_id": "27698256",
+      "human_score": 90,
+      "ai_score": 80,
+      "empathy_rating": "NEUTRAL",
+      "risk_level": "MED",
+      "confidence_pct": 85,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Missed Sentiment",
+          "deduction": -10,
+          "evidence": "Player: 'Imagine that' (02:35:58, sarcastic response after being refused a free chip and told to deposit more). Agent's reply: 'If you're planning to make a deposit soon, I can also check if there is a special coupon available for you that could add extra value to your deposit.'",
+          "explanation": "The player's sarcastic 'Imagine that' was a clear expression of frustration after waiting on a $380 refund and being denied a goodwill gesture. Instead of acknowledging the sentiment or repairing the moment, the agent pivoted directly into another deposit pitch, which was tone-deaf given the emotional context. The agent also failed to recognize that a frustrated VIP awaiting a refund needed validation before any monetization attempt."
+        },
+        {
+          "tier": 9,
+          "category": "Revenue/Retention - Missed Goodwill Gesture",
+          "deduction": -10,
+          "evidence": "Player (visibly frustrated about $380 refund delay) asked: 'What FreePlay do you have to offer me today?' Agent: 'At the moment, I unfortunately do not have a free chip available for your account... What I would kindly recommend is making another deposit when you are ready.'",
+          "explanation": "This was an appropriate context for a loyalty/goodwill gesture - a frustrated VIP awaiting a sizable refund. Per rubric guidance, a no-rules bonus or loyalty chip offered to a frustrated VIP would have directly addressed her frustration and is an appropriate use of retention spend. Instead, the agent denied any gesture and pushed for a deposit, which escalated the player's frustration and led directly to the 'stolen money' accusation and chat closure."
+        }
+      ],
+      "feedback_summary": "Gregory handled the refund explanation with composure and proper FCR ownership, committing to ongoing updates rather than telling the player to check back. However, he missed two critical emotional/retention moments: failing to acknowledge the player's sarcastic frustration and pivoting straight to a deposit pitch, and declining to offer a small goodwill gesture to a clearly frustrated VIP awaiting a $380 refund. These misjudgments led to the chat ending with the player accusing the brand of theft.",
+      "positive_highlight": "Gregory remained composed and transparent when explaining the refund timeline and limitations on transaction tracking. His commitment to proactive monitoring - 'I will absolutely keep monitoring it closely for you and share any updates as soon as they become available. I'm here to make sure you're not left wondering what's happening' - demonstrated proper FCR ownership rather than burden-shifting to the player.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Retention",
+          "description": "Should have proactively offered a small no-deposit loyalty chip or house gesture as goodwill given the player's frustration and pending refund. This would have repaired the emotional moment and potentially preserved the relationship rather than triggering the 'stolen money' accusation.",
+          "evidence": "Player: 'What FreePlay do you have to offer me today?' followed by agent's refusal and deposit-requirement pitch, then player's 'Imagine that' and ultimately 'You have stolen enough money for me.'"
+        },
+        {
+          "type": "Deposit Match",
+          "description": "The deposit-coupon pitch was made AFTER the player was already frustrated. The sequencing should have been: lead with empathy and a small goodwill gesture FIRST, then later in the conversation - once rapport was repaired - mention the coupon availability for future deposits.",
+          "evidence": "Agent's pivot at 02:35:53 and 02:36:18 came immediately after refusing the free chip request, when the player was already disengaging."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Read the Room Before Monetizing",
+          "recommendation": "Never pivot to deposit asks immediately after denying a frustrated VIP something they requested. The sequence should be: acknowledge \u2192 repair \u2192 resolve \u2192 and only then explore upsell. Example script: 'Julie, I completely understand the frustration of waiting on your refund. Let me see what I can do on my end - while I don't have a standard free chip available, let me escalate to my manager and see if we can get a small loyalty gesture added to thank you for your patience. Give me just a moment.'"
+        },
+        {
+          "title": "Recognize and Repair Sarcasm",
+          "recommendation": "When a player responds with sarcastic one-liners like 'Imagine that' or 'Nope.', these are emotional flares - not neutral responses. Pause the transactional flow and address the feeling. Example script: 'Julie, I can hear the frustration in your message, and I don't blame you - waiting on a refund this size while also feeling like you're not getting taken care of is genuinely frustrating. Let me see what I can personally do to make this right today.'"
+        },
+        {
+          "title": "Goodwill Authority for VIP Account Managers",
+          "recommendation": "For a high-frustration VIP situation tied to a pending refund, the default posture should be 'what CAN I give' rather than 'what's the standard rule.' Even a small token chip with reasonable terms preserves the relationship far better than a transactional 'deposit first' response. Build the habit of asking yourself: 'If this player closes their account today, would my response have been worth the lost LTV?'"
+        },
+        {
+          "title": "Don't Get Defensive on Accusations",
+          "recommendation": "When the player said 'You have stolen enough money for me,' the response leaned defensive ('I don't have the ability to take, move, or control any funds'). While factually accurate, it reads as deflection. A stronger response leads with empathy and ownership of the experience. Example script: 'Julie, I hear you, and I'm genuinely sorry this has gotten to this point. You came here trusting that your refund would be handled, and the wait has clearly worn that trust down. Let me personally escalate this to our finance lead today and see if there is any way to push movement on your case faster - and I'll follow up with you directly by tomorrow with whatever I learn.'"
+        }
+      ],
+      "human_feedback": "80",
+      "requires_human_review": false
+    },
+    {
+      "chat_id": "11851119",
+      "agent_id": "op_011",
+      "agent_real_name": "Gilberth Rodriguez",
+      "agent_host_name": "Tobias Ferguson",
+      "agent_office": "CR",
+      "brand": "Slots Of Vegas",
+      "date": "2026-05-20",
+      "datetime": "2026-05-20T12:00:00",
+      "customer_id": "24137722",
+      "human_score": 55,
+      "ai_score": 90,
+      "empathy_rating": "POOR",
+      "risk_level": "MED",
+      "confidence_pct": 88,
+      "violations": [
+        {
+          "tier": 8,
+          "category": "Empathy - Major Personal Disclosure Ignored",
+          "deduction": -10,
+          "evidence": "Player: 'Well I was In the hospital having back surgery and didn't have access to my phone or email so I couldn't redeem earlier or I would have' \u2192 Agent: 'Sorry Kathleen, in this case we can give you any more free chip bonuses at this moment because you have redeemed multiple free chips in a row...'",
+          "explanation": "The player disclosed a significant personal/medical event (hospitalization for back surgery) as the reason she missed the 7-day birthday bonus window. The agent completely ignored this major disclosure and pivoted immediately to a transactional policy rejection. Per rubric, ignoring major personal disclosures (illness, hospitalization, surgery) is a severe empathy failure. The agent did not express well-wishes, acknowledge the hardship, or attempt to use the disclosure as grounds to escalate for a courtesy exception."
+        }
+      ],
+      "feedback_summary": "Agent handled the policy explanation correctly but demonstrated a serious empathy failure by ignoring the player's disclosure of recent back surgery and hospitalization. Tone was robotic and transactional during a moment that called for warmth and goodwill, contributing to the player disengaging with 'Good bye.' Policy was upheld at the cost of the relationship.",
+      "positive_highlight": "The agent followed proper greeting protocol, introduced themselves clearly as a VIP Account Manager, and attempted to provide an alternative path forward by suggesting a deposit bonus when the birthday code could not be honored.",
+      "revenue_opportunities_missed": [
+        {
+          "type": "Retention",
+          "description": "After the player disclosed surgery/hospitalization, the agent had a strong opportunity to escalate for a one-time courtesy birthday bonus exception or offer a goodwill loyalty chip framed around her recovery. This could have preserved the relationship and likely led to a future deposit. Instead, the agent enforced policy coldly and lost the player to 'Good bye.'",
+          "evidence": "Player: 'I was In the hospital having back surgery...I couldn't redeem earlier or I would have' \u2014 agent provided no goodwill gesture or supervisor escalation offer."
+        }
+      ],
+      "coaching_plan": [
+        {
+          "title": "Acknowledging Personal Disclosures Before Policy",
+          "recommendation": "Always pause and acknowledge any personal/medical disclosure before delivering a policy response. Use a script like: 'Kathleen, I'm so sorry to hear you've been recovering from back surgery \u2014 I hope you're healing well. Let me see what I can do for you given the circumstances. One moment please.' Then escalate to a supervisor or shift lead to request a courtesy exception. Even if the exception is denied, the player feels heard."
+        },
+        {
+          "title": "Goodwill Recovery on Denied Requests",
+          "recommendation": "When a policy denial is unavoidable, soften the landing with a goodwill gesture or empathetic close. Example: 'I completely understand, and I'm sorry the timing worked against you while you were in the hospital. While I'm unable to honor the birthday code outside the 7-day window, I'd love to personally set you up with something special once you're back to playing \u2014 would you like me to flag your account for a manager-approved welcome-back bonus on your next deposit?'"
+        },
+        {
+          "title": "Retention Response to 'Good bye'",
+          "recommendation": "Treat any 'good bye' following a denial as a soft churn signal. Instead of immediately pitching a deposit, lead with empathy: 'Kathleen, before you go \u2014 I really do appreciate your loyalty and I'm sorry I couldn't help today the way you hoped. Please take care of yourself, and when you're ready, message me directly and I'll personally make sure your next session starts on a high note.' This protects the relationship even when the transaction fails."
+        },
+        {
+          "title": "Closing Etiquette",
+          "recommendation": "Avoid the templated 'Since I am not receiving any response from you, this chat will be closed' line when the player has already said 'Good bye.' Instead, send a warm sign-off: 'Take care, Kathleen \u2014 wishing you a smooth recovery. I'm here whenever you need me.' This leaves the door open and reinforces a personal connection."
+        }
+      ],
+      "human_feedback": "70",
+      "requires_human_review": false
+    }
+  ],
+  "team_aggregates": {
+    "team_avg_score": 81.0,
+    "total_chats": 30,
+    "risk_distribution": {
+      "LOW": 7,
+      "MED": 13,
+      "HIGH": 8,
+      "CRIT": 2
+    },
+    "empathy_distribution": {
+      "EXCELLENT": 2,
+      "GOOD": 8,
+      "NEUTRAL": 12,
+      "POOR": 8
+    },
+    "violation_counts_by_tier": {
+      "Tier 1": 0,
+      "Tier 2": 1,
+      "Tier 3": 3,
+      "Tier 4": 3,
+      "Tier 5": 1,
+      "Tier 6": 2,
+      "Tier 7": 2,
+      "Tier 8": 24,
+      "Tier 9": 8,
+      "Tier 10": 0
+    },
+    "top_5_agents": [
+      {
+        "agent_id": "op_010",
+        "real_name": "Ruddy Lopez",
+        "host_name": "Murray Anderson",
+        "avg_score": 93.3,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_004",
+        "real_name": "Ricardo Araya",
+        "host_name": "Damian Reyes",
+        "avg_score": 92.5,
+        "chat_count": 2
+      },
+      {
+        "agent_id": "op_005",
+        "real_name": "Preston Mulgrave",
+        "host_name": "Gregory Hartley",
+        "avg_score": 86.7,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_003",
+        "real_name": "Juan Carlos Treminio",
+        "host_name": "Charles Pinnock",
+        "avg_score": 85.0,
+        "chat_count": 2
+      },
+      {
+        "agent_id": "op_007",
+        "real_name": "Fabricio Fallas",
+        "host_name": "Lucas Keenum",
+        "avg_score": 83.3,
+        "chat_count": 3
+      }
+    ],
+    "bottom_5_agents": [
+      {
+        "agent_id": "op_006",
+        "real_name": "Manuel Tortos",
+        "host_name": "Ian Hart",
+        "avg_score": 37.5,
+        "chat_count": 2
+      },
+      {
+        "agent_id": "op_014",
+        "real_name": "Duvan Zapata",
+        "host_name": "Damien Cruz",
+        "avg_score": 75.0,
+        "chat_count": 1
+      },
+      {
+        "agent_id": "op_009",
+        "real_name": "Matias Orellana",
+        "host_name": "Matthew Robbins",
+        "avg_score": 78.3,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_013",
+        "real_name": "Zugyeri Arroyo",
+        "host_name": "Danielle Ruie",
+        "avg_score": 80.0,
+        "chat_count": 1
+      },
+      {
+        "agent_id": "op_012",
+        "real_name": "Reynaldo Naranjo",
+        "host_name": "August Carter",
+        "avg_score": 80.0,
+        "chat_count": 1
+      }
+    ],
+    "all_agents_ranked": [
+      {
+        "agent_id": "op_010",
+        "real_name": "Ruddy Lopez",
+        "host_name": "Murray Anderson",
+        "avg_score": 93.3,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_004",
+        "real_name": "Ricardo Araya",
+        "host_name": "Damian Reyes",
+        "avg_score": 92.5,
+        "chat_count": 2
+      },
+      {
+        "agent_id": "op_005",
+        "real_name": "Preston Mulgrave",
+        "host_name": "Gregory Hartley",
+        "avg_score": 86.7,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_003",
+        "real_name": "Juan Carlos Treminio",
+        "host_name": "Charles Pinnock",
+        "avg_score": 85.0,
+        "chat_count": 2
+      },
+      {
+        "agent_id": "op_007",
+        "real_name": "Fabricio Fallas",
+        "host_name": "Lucas Keenum",
+        "avg_score": 83.3,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_008",
+        "real_name": "Gabriel Amador",
+        "host_name": "Marcus Blackwood",
+        "avg_score": 83.3,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_002",
+        "real_name": "Ana Diaz",
+        "host_name": "Amelia Dubois",
+        "avg_score": 81.7,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_011",
+        "real_name": "Gilberth Rodriguez",
+        "host_name": "Tobias Ferguson",
+        "avg_score": 81.7,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_012",
+        "real_name": "Reynaldo Naranjo",
+        "host_name": "August Carter",
+        "avg_score": 80.0,
+        "chat_count": 1
+      },
+      {
+        "agent_id": "op_013",
+        "real_name": "Zugyeri Arroyo",
+        "host_name": "Danielle Ruie",
+        "avg_score": 80.0,
+        "chat_count": 1
+      },
+      {
+        "agent_id": "op_009",
+        "real_name": "Matias Orellana",
+        "host_name": "Matthew Robbins",
+        "avg_score": 78.3,
+        "chat_count": 3
+      },
+      {
+        "agent_id": "op_014",
+        "real_name": "Duvan Zapata",
+        "host_name": "Damien Cruz",
+        "avg_score": 75.0,
+        "chat_count": 1
+      },
+      {
+        "agent_id": "op_006",
+        "real_name": "Manuel Tortos",
+        "host_name": "Ian Hart",
+        "avg_score": 37.5,
+        "chat_count": 2
+      }
+    ]
+  },
+  "agent_aggregates": {
+    "op_002": {
+      "agent_id": "op_002",
+      "avg_score": 81.7,
+      "total_chats": 3,
+      "score_history": [
+        {
+          "date": "2026-05-20",
+          "avg_score": 80.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-24",
+          "avg_score": 82.5,
+          "chat_count": 2
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 1,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 1,
+        "Tier 9": 1,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 1,
+        "MED": 2,
+        "HIGH": 0,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 3 VIP interactions during the review period with an average QA score of 81.7%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_003": {
+      "agent_id": "op_003",
+      "avg_score": 85.0,
+      "total_chats": 2,
+      "score_history": [
+        {
+          "date": "2026-05-23",
+          "avg_score": 100.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-24",
+          "avg_score": 70.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 2,
+        "Tier 9": 1,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 1,
+        "MED": 0,
+        "HIGH": 1,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 2 VIP interactions during the review period with an average QA score of 85.0%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_004": {
+      "agent_id": "op_004",
+      "avg_score": 92.5,
+      "total_chats": 2,
+      "score_history": [
+        {
+          "date": "2026-05-19",
+          "avg_score": 85.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-23",
+          "avg_score": 100.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 1,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 1,
+        "Tier 9": 0,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 1,
+        "MED": 1,
+        "HIGH": 0,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 2 VIP interactions during the review period with an average QA score of 92.5%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_005": {
+      "agent_id": "op_005",
+      "avg_score": 86.7,
+      "total_chats": 3,
+      "score_history": [
+        {
+          "date": "2026-05-20",
+          "avg_score": 90.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-24",
+          "avg_score": 85.0,
+          "chat_count": 2
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 3,
+        "Tier 9": 1,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 0,
+        "MED": 3,
+        "HIGH": 0,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 3 VIP interactions during the review period with an average QA score of 86.7%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_006": {
+      "agent_id": "op_006",
+      "avg_score": 37.5,
+      "total_chats": 2,
+      "score_history": [
+        {
+          "date": "2026-05-24",
+          "avg_score": 0.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-25",
+          "avg_score": 75.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 1,
+        "Tier 3": 1,
+        "Tier 4": 0,
+        "Tier 5": 1,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 2,
+        "Tier 9": 0,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 0,
+        "MED": 0,
+        "HIGH": 1,
+        "CRIT": 1
+      },
+      "executive_summary": "Agent demonstrated 2 VIP interactions during the review period with an average QA score of 37.5%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_007": {
+      "agent_id": "op_007",
+      "avg_score": 83.3,
+      "total_chats": 3,
+      "score_history": [
+        {
+          "date": "2026-05-19",
+          "avg_score": 80.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-20",
+          "avg_score": 100.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-23",
+          "avg_score": 70.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 1,
+        "Tier 7": 0,
+        "Tier 8": 2,
+        "Tier 9": 1,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 1,
+        "MED": 1,
+        "HIGH": 1,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 3 VIP interactions during the review period with an average QA score of 83.3%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_008": {
+      "agent_id": "op_008",
+      "avg_score": 83.3,
+      "total_chats": 3,
+      "score_history": [
+        {
+          "date": "2026-05-21",
+          "avg_score": 60.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-25",
+          "avg_score": 95.0,
+          "chat_count": 2
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 3,
+        "Tier 9": 2,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 1,
+        "MED": 1,
+        "HIGH": 0,
+        "CRIT": 1
+      },
+      "executive_summary": "Agent demonstrated 3 VIP interactions during the review period with an average QA score of 83.3%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_009": {
+      "agent_id": "op_009",
+      "avg_score": 78.3,
+      "total_chats": 3,
+      "score_history": [
+        {
+          "date": "2026-05-19",
+          "avg_score": 100.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-20",
+          "avg_score": 70.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-23",
+          "avg_score": 65.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 1,
+        "Tier 4": 1,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 1,
+        "Tier 8": 3,
+        "Tier 9": 0,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 1,
+        "MED": 0,
+        "HIGH": 2,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 3 VIP interactions during the review period with an average QA score of 78.3%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_010": {
+      "agent_id": "op_010",
+      "avg_score": 93.3,
+      "total_chats": 3,
+      "score_history": [
+        {
+          "date": "2026-05-22",
+          "avg_score": 90.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-23",
+          "avg_score": 90.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-24",
+          "avg_score": 100.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 2,
+        "Tier 9": 0,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 1,
+        "MED": 2,
+        "HIGH": 0,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 3 VIP interactions during the review period with an average QA score of 93.3%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_011": {
+      "agent_id": "op_011",
+      "avg_score": 81.7,
+      "total_chats": 3,
+      "score_history": [
+        {
+          "date": "2026-05-20",
+          "avg_score": 90.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-21",
+          "avg_score": 90.0,
+          "chat_count": 1
+        },
+        {
+          "date": "2026-05-25",
+          "avg_score": 65.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 1,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 3,
+        "Tier 9": 1,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 0,
+        "MED": 2,
+        "HIGH": 1,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 3 VIP interactions during the review period with an average QA score of 81.7%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_012": {
+      "agent_id": "op_012",
+      "avg_score": 80.0,
+      "total_chats": 1,
+      "score_history": [
+        {
+          "date": "2026-05-20",
+          "avg_score": 80.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 1,
+        "Tier 7": 0,
+        "Tier 8": 0,
+        "Tier 9": 0,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 0,
+        "MED": 0,
+        "HIGH": 1,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 1 VIP interactions during the review period with an average QA score of 80.0%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_013": {
+      "agent_id": "op_013",
+      "avg_score": 80.0,
+      "total_chats": 1,
+      "score_history": [
+        {
+          "date": "2026-05-22",
+          "avg_score": 80.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 0,
+        "Tier 8": 1,
+        "Tier 9": 1,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 0,
+        "MED": 1,
+        "HIGH": 0,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 1 VIP interactions during the review period with an average QA score of 80.0%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    },
+    "op_014": {
+      "agent_id": "op_014",
+      "avg_score": 75.0,
+      "total_chats": 1,
+      "score_history": [
+        {
+          "date": "2026-05-23",
+          "avg_score": 75.0,
+          "chat_count": 1
+        }
+      ],
+      "violation_counts_by_tier": {
+        "Tier 1": 0,
+        "Tier 2": 0,
+        "Tier 3": 0,
+        "Tier 4": 0,
+        "Tier 5": 0,
+        "Tier 6": 0,
+        "Tier 7": 1,
+        "Tier 8": 1,
+        "Tier 9": 0,
+        "Tier 10": 0
+      },
+      "risk_distribution": {
+        "LOW": 0,
+        "MED": 0,
+        "HIGH": 1,
+        "CRIT": 0
+      },
+      "executive_summary": "Agent demonstrated 1 VIP interactions during the review period with an average QA score of 75.0%. Performance shows consistent technical execution with opportunities to deepen empathy on emotional moments and capture more revenue opportunities through proactive upsell positioning."
+    }
+  },
+  "sample_transcripts": {
+    "short_payment": "[14:30:15] Agent: Hi! How can I help you today?\n[14:30:42] Player: I made a deposit 30 minutes ago but my balance hasn't updated\n[14:30:58] Agent: I can help with that. Could you give me your username so I can check?\n[14:31:15] Player: It's vipplayer47\n[14:31:30] Agent: Thank you! Let me pull up your account.\n[14:32:45] Agent: I can see the deposit pending in our system. It should clear within the next 15 minutes. I'll personally monitor it and email you the moment it posts.\n[14:33:00] Player: ok thanks\n[14:33:10] Agent: You're very welcome! Anything else I can help with?\n[14:33:25] Player: no that's it",
+    "bonus_inquiry": "[10:15:00] Agent: Hello, welcome to VIP support. How can I help today?\n[10:15:30] Player: Hi, I want to claim the welcome bonus\n[10:15:45] Agent: Absolutely! I can set that up for you. The bonus is 200% match up to $2000 with code VIP200.\n[10:16:30] Agent: For this bonus, the playthrough is 30x on slots and 60x on table games. Max cashout is 10x the deposit. Allowed games are slots and keno. Min deposit is $30.\n[10:17:15] Player: ok let me deposit then\n[10:17:30] Agent: Perfect! Once you complete the deposit, I'll apply the bonus to your account.\n[10:25:45] Player: done, deposited $100\n[10:26:00] Agent: I see it! Applying VIP200 now... done. You have $300 in your account.\n[10:26:30] Player: thank you\n[10:26:45] Agent: Have a great session!"
+  }
+}
